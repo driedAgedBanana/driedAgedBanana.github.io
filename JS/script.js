@@ -201,5 +201,17 @@ document.addEventListener('DOMContentLoaded', function() {
     languageSelector.addEventListener('click', function(event) {
         event.stopPropagation();
     });
+
+    // Event listeners for hover effect
+    languageSelector.addEventListener('mouseover', function() {
+        const languageDropdown = languageSelector.querySelector('.language-dropdown-content');
+        languageDropdown.style.display = 'block';
+    });
+
+    languageSelector.addEventListener('mouseout', function() {
+        const languageDropdown = languageSelector.querySelector('.language-dropdown-content');
+        languageDropdown.style.display = 'none';
+    });
 });
+
 
