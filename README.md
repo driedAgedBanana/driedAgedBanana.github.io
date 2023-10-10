@@ -9,7 +9,7 @@ A personal website of mine, digital portfolio.
 
 ## Copyright
 
-© [WyzardArk](https://github.com/driedAgedBanana) 2021 - 2023. All Rights Reserved.
+© [WyzardArk](https://github.com/driedAgedBanana) 2019 - 2023. All Rights Reserved.
 
 All media used in this project belong to their respective owners.
 
