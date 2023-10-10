@@ -684,7 +684,6 @@ span {
 }
 
 .mirage-cover {
-    padding-left: 160px;
     width: 400px;
     height: auto;
 }
@@ -828,6 +827,52 @@ span {
 
 @media (max-width: 800px) {
 
+    .menu-bar {
+        width: 100%; /* Make sure it takes up the full width */
+        box-sizing: border-box; /* Include padding and border in element's total width and height */
+        padding: 10px; /* Add some padding for space around the items */
+        overflow: hidden; /* Prevent content from overflowing */
+        position: relative; /* Position relative for absolute positioning of child elements */
+    }
+
+    .language-selector {
+        float: right; /* Float to the right */
+    }
+
+    .nav-items {
+        display: flex; /* Make the items display in a row */
+        justify-content: center; /* Center the items horizontally */
+        list-style-type: none; /* Remove bullet points from the list */
+        padding: 0; /* Remove default padding */
+    }
+
+    .nav-item {
+        margin: 0 10px; /* Add some space between the items */
+    }
+
+    .nav-items a img {
+        width: 30px;
+    }
+
+    .language-dropdown-content {
+        position: absolute;
+        top: 135%;
+        right: 0;
+        left: auto;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        background-color: #F3FCF0;
+        box-sizing: border-box;
+    }
+
+    .Ass {
+        background-color: red;
+    }
+
+    .Assh1 {
+        color: black;
+    }
+
     .hero-section {
         align-items: center;
         margin: 0 auto;
@@ -869,5 +914,169 @@ span {
 
     .explore-me p {
         font-size: 16px; /* Adjust font size for mobile */
+    }
+
+    .projects {
+        height: auto;
+        background-image: none; /* Remove the background image on smaller screens */
+    }
+
+    .projects-content {
+        flex-direction: column; /* Stack projects vertically on smaller screens */
+        align-items: center;
+        text-align: center;
+    }
+
+    .projects-content h1 {
+        font-size: 150%; /* Adjust the font size as needed */
+        padding-bottom: 20px;
+        padding-left: 0;
+    }
+
+    .project {
+        width: 100%; /* Take up full width */
+        margin-bottom: 30px; /* Add some spacing between projects */
+    }
+
+    .project h2 {
+        font-size: 20px; /* Adjust the font size as needed */
+    }
+
+    .project h2 span {
+        color: red;
+    }
+
+    .project p {
+        font-size: 14px; /* Adjust the font size as needed */
+    }
+
+    .project-image {
+        max-width: 100%;
+        height: auto;
+        filter: none;
+    }
+
+    .highlight-content {
+        padding: 50px 20px; /* Adjust padding for mobile */
+        text-align: center;
+    }
+
+    .highlight-content h2 {
+        font-size: 2em; /* Adjust font size for mobile */
+    }
+
+    .highlight-content p {
+        font-size: 1em; /* Adjust font size for mobile */
+    }
+
+    .highlight-content .btn {
+        margin-top: 20px; /* Add some space between text and button */
+    }
+
+    .mirage-canva {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 80px 20px; /* Adjust padding for mobile */
+    }
+
+    .canva {
+        padding: 20px; /* Adjust padding for mobile */
+    }
+
+    .mirage-cover {
+        width: 100%; /* Make images responsive */
+        max-width: 100%;
+    }
+
+    .canva h3 {
+        font-size: 120%; /* Adjust font size for mobile */
+    }
+
+    .canva .line {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .canva p {
+        font-size: 14px; /* Adjust font size for mobile */
+    }
+
+    .footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-top: 12px;
+    }
+
+    .footermainrow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -90px;
+    }
+
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Add this line to horizontally center the logo */
+        margin-bottom: -20px; /* Add some space between the logo and text */
+        margin-left: -5px;
+    }
+
+    .footer-title {
+        font-size: 14px;
+        margin-bottom: 1px;
+    }
+
+    .footercaps {
+        font-size: 16px; /* Adjust the font size as needed */
+        line-height: 1.5; /* Add some line height for better spacing */
+        max-width: 70%; /* Limit the width to improve readability */
+        margin: 0 auto; /* Center the text */
+        text-align: center; /* Center the text */
+        padding-top: 10px;
+    }
+
+    #instagram, #linkedin {
+        margin-top: 140px;
+        margin-right: 120px;
+    }
+
+    .social-media span {
+        color: black;
+    }
+
+    .social-media {
+        color: black;
+    }
+
+    .question-button {
+        font-size: 14px;
+        padding: 10px 20px;
+        border: 2px solid red;
+        background-color: transparent;
+        color: red;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        margin-top: 10px;
+    }
+
+    .question-button:hover {
+        background-color: red;
+        color: white;
+    }
+
+    .footer-banner {
+        width: 100%;
+        height: auto;
+        margin-top: 10px; /* Adjust the margin as needed */
+        background-image: url("../Img/reiwabanner.png");
+    }
+
+    .footer-line {
+        margin-top: 100px; /* Adjust the padding as needed */
     }
 }
