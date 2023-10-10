@@ -177,50 +177,29 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// For the mobile friendly thing
-document.addEventListener('DOMContentLoaded', function() {
-    const menuButton = document.querySelector('.menu-button');
-    const menuBar = document.querySelector('.menu-bar');
+document.getElementById('uk-link').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default behavior (i.e., following the link)
 
-    menuButton.addEventListener('click', function() {
-        menuBar.classList.toggle('show');
-
-        // Toggle the hamburger icon
-        const bars = menuButton.querySelectorAll('.bar');
-        bars.forEach(bar => bar.classList.toggle('open'));
-    });
-});
-
-//For the flag drop down
-document.querySelector('.menu-button').addEventListener('click', function() {
-    var languageSelector = document.querySelector('.language-selector');
-    languageSelector.classList.toggle('show');
+    // Toggle the display property of the dropdown content
+    const dropdownContent = document.querySelector('.language-dropdown-content');
+    dropdownContent.style.display = (dropdownContent.style.display === 'block') ? 'none' : 'block';
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    const languageLink = document.querySelector('.language-link');
-    const languageDropdown = document.querySelector('.language-dropdown-content');
+    const languageSelector = document.getElementById('languageSelector');
 
-    languageLink.addEventListener('click', function(e) {
-        e.preventDefault();
-        languageDropdown.classList.toggle('show');
-    });
+    // Event listener to handle clicks on the body
+    document.body.addEventListener('click', function(event) {
+        const languageDropdown = languageSelector.querySelector('.language-dropdown-content');
 
-    document.addEventListener('click', function(e) {
-        if (!e.target.matches('.language-link')) {
-            const dropdowns = document.querySelectorAll('.language-dropdown-content');
-            dropdowns.forEach(function(dropdown) {
-                if (dropdown.classList.contains('show')) {
-                    dropdown.classList.remove('show');
-                }
-            });
+        if (languageDropdown.style.display === 'block') {
+            languageDropdown.style.display = 'none';
         }
     });
+
+    // Event listener to prevent clicks inside the language selector from hiding the dropdown
+    languageSelector.addEventListener('click', function(event) {
+        event.stopPropagation();
+    });
 });
-
-
-
-
-
-
 
