@@ -419,6 +419,10 @@ span {
     align-items: center;
 }
 
+.friends {
+    font-size: 10px;
+}
+
 .explore-me {
     width: 1200px;
     margin: 0 auto;
