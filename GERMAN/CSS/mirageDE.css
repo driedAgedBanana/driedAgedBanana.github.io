@@ -125,13 +125,14 @@ body::-webkit-scrollbar-thumb:hover {
     width: 30px; /* Adjust the width as needed */
     height: auto;
     margin-right: 10px; /* Add some spacing between flag and text */
+    padding-bottom: 1px;
 }
 
 /* Style the dropdown content (initially hidden) */
 .language-dropdown-content {
     display: none;
     position: absolute;
-    background-color: #fff; /* Background color of the dropdown */
+    background-color: #EEE4E1; /* Background color of the dropdown */
     min-width: 160px; /* Adjust the width as needed */
     min-height: 220px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a shadow */
@@ -176,7 +177,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .uk-flag {
-    background-image: url("../../Img/Flag_of_the_United_KingdomCropped.svg.jpg");
+    background-image: url("../../Img/Flag_of_the_United_Kingdom_(1-2).svg.webp");
     height: 15px;
     background-size: cover;
 }

@@ -133,18 +133,6 @@ body::-webkit-scrollbar-thumb:hover {
     position: absolute;
     background-color: #fff; /* Background color of the dropdown */
     min-width: 160px; /* Adjust the width as needed */
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a shadow */
-    z-index: 1;
-    overflow: hidden;
-    transition: max-height 0.5s ease-in-out; /* Smooth animation */
-}
-
-/* Style the dropdown content (initially hidden) */
-.language-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #fff; /* Background color of the dropdown */
-    min-width: 160px; /* Adjust the width as needed */
     min-height: 220px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a shadow */
     z-index: 1;
@@ -850,7 +838,7 @@ span {
     .brand-logo {
         display: flex;
         margin-left: auto;
-        background-image: url("../../Img/WALogo.png");
+        background-image: url("../Img/WALogo.png");
         margin-bottom: -2px;
     }
 
