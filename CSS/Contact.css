@@ -38,7 +38,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 
 .styled-input {
     float: left;
-    width: 650px;
+    width: 540px;
     margin: 1rem 0;
     position: relative;
     border-radius: 4px;
@@ -63,9 +63,9 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 800px){
     .styled-input {
-        width:100%;
+        width:83%;
     }
 }
 
@@ -82,7 +82,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 
 .styled-input.wide {
     width: 650px;
-    max-width: 100%;
+    max-width: 83%;
 }
 
 input,
@@ -141,9 +141,13 @@ textarea {
     0 1px 1px 0 rgba(0,0,0,0.09);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+    .input-container {
+        width: 100%; /* Adjust to your preference */
+    }
+
     .submit-btn {
-        width:100%;
+        width:80%;
         float: none;
         text-align:center;
     }

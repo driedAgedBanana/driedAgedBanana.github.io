@@ -187,7 +187,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 .nl-flag {
-    background-image: url('../img/vlag-nederland.png');
+    background-image: url('../Img/vlag-nederland.png');
     height: 20px;
     background-size: cover;
 }
@@ -206,7 +206,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 .vn-flag {
-    background-image: url('../img/Flag_of_Vietnam.svg.png');
+    background-image: url('../Img/Flag_of_Vietnam.svg.png');
     height: 20px;
     background-size: cover;
 }
@@ -843,7 +843,16 @@ span {
         display: flex; /* Make the items display in a row */
         justify-content: center; /* Center the items horizontally */
         list-style-type: none; /* Remove bullet points from the list */
-        padding: 0; /* Remove default padding */
+        padding: 0px; /* Remove default padding */
+    }
+
+    .brand-logo {
+        display: none;
+    }
+
+    .nav {
+        margin-left: -24px;
+        display: flex;
     }
 
     .nav-item {
@@ -1041,7 +1050,6 @@ span {
 
     #instagram, #linkedin {
         margin-top: 140px;
-        margin-right: 120px;
     }
 
     .social-media span {
