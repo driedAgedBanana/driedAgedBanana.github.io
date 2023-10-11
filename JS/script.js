@@ -46,6 +46,7 @@ const randomMessages = [
     "Birth - Meteor - Beast - Barron",
     "mach - Specter - Brave",
     "A new Memory Core has just unlocked",
+    "Now you see me, now you don't",
 ];
 
 const typingSpeed = 54 // Typing speed in milliseconds
