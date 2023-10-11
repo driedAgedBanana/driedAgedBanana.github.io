@@ -883,7 +883,7 @@ span {
     }
 
     .explore {
-        background-image: url("../Img/Heavyraindark.png");
+        background-image: url("../Img/DutchVietDarkPhone.png");
     }
 
     .explore-me h1,
@@ -911,6 +911,10 @@ span {
         display: block;
         width: 150px;
         transform: none;
+    }
+
+    .operation {
+        background-image: url("../Img/Heavyraindark.png");
     }
 
     .projects {
