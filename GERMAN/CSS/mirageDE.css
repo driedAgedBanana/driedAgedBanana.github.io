@@ -133,18 +133,6 @@ body::-webkit-scrollbar-thumb:hover {
     position: absolute;
     background-color: #fff; /* Background color of the dropdown */
     min-width: 160px; /* Adjust the width as needed */
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a shadow */
-    z-index: 1;
-    overflow: hidden;
-    transition: max-height 0.5s ease-in-out; /* Smooth animation */
-}
-
-/* Style the dropdown content (initially hidden) */
-.language-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #fff; /* Background color of the dropdown */
-    min-width: 160px; /* Adjust the width as needed */
     min-height: 220px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a shadow */
     z-index: 1;
@@ -825,17 +813,10 @@ span {
     color: red;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
 
     .menu-bar {
-        width: 100%; /* Make sure it takes up the full width */
-        box-sizing: border-box; /* Include padding and border in element's total width and height */
-        padding: 10px; /* Add some padding for space around the items */
-        overflow: hidden; /* Prevent content from overflowing */
-        position: relative; /* Position relative for absolute positioning of child elements */
-        text-align: center;
-        align-items: center;
-        margin-left: 30px;
+        display: none;
     }
 
     .contact-button {

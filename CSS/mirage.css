@@ -828,14 +828,7 @@ span {
 @media (max-width: 800px) {
 
     .menu-bar {
-        width: 100%; /* Make sure it takes up the full width */
-        box-sizing: border-box; /* Include padding and border in element's total width and height */
-        padding: 10px; /* Add some padding for space around the items */
-        overflow: hidden; /* Prevent content from overflowing */
-        position: relative; /* Position relative for absolute positioning of child elements */
-        text-align: center;
-        align-items: center;
-        margin-left: 30px;
+        display: none;
     }
 
     .contact-button {
@@ -871,6 +864,7 @@ span {
     }
 
     .nav-items a img {
+        margin-left: 20px;
         width: 30px;
     }
 
@@ -896,7 +890,7 @@ span {
     .hero-section {
         align-items: center;
         margin: 0 auto;
-        height: 100vh;
+        height: 90.3vh;
     }
 
     .hero-content h1 {

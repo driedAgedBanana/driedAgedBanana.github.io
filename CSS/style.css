@@ -859,6 +859,7 @@ span {
     }
 
     .nav-items a img {
+        margin-left: -15px;
         width: 30px;
     }
 
