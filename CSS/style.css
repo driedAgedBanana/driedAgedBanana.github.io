@@ -214,7 +214,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 .nl-flag {
-    background-image: url('../img/vlag-nederland.png');
+    background-image: url('../Img/vlag-nederland.png');
     height: 20px;
     background-size: cover;
 }
@@ -233,7 +233,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 .vn-flag {
-    background-image: url('../img/Flag_of_Vietnam.svg.png');
+    background-image: url('../Img/Flag_of_Vietnam.svg.png');
     height: 20px;
     background-size: cover;
 }
