@@ -648,7 +648,7 @@ span {
 
 .mirage-content {
     width: 100%;
-    max-width: 800px; /* Adjust as needed */
+    max-width: 900px; /* Adjust as needed */
     padding: 150px 20px;
     color: whitesmoke;
 }
@@ -793,16 +793,15 @@ span {
     width: 50px;
     height: auto;
     margin-bottom: -80px;
-    margin-left: -230px;
+    margin-left: -270px;
 }
 
 #linkedin {
     width: 50px;
     height: auto;
     margin-bottom: -80px;
-    margin-left: -140px;
+    margin-left: -180px;
 }
-
 
 .footer-line {
     border-top: 1px solid red;

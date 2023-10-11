@@ -4,7 +4,6 @@ const randomMessages = [
     "Change - Beetle",
     "the man who will rule everything",
     "If he's Stronger, then I am the Strongest",
-    "Earth - Heaven",
     "Now, Let's Count Up Your Sins!",
     "Good to see you guys",
     "Taking care all of you, is also a part of my job",
