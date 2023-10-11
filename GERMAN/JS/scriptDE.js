@@ -1,52 +1,52 @@
 // Array of random messages to be typed
 const randomMessages = [
-    "Walking on the path of heaven",
+    "Auf dem Pfad des Himmels wandeln",
     "Change - Beetle",
-    "the man who will rule everything",
-    "If he's Stronger, then I am the Strongest",
-    "Earth - Heaven",
-    "Now, Let's Count Up Your Sins!",
-    "Good to see you guys",
-    "Taking care all of you, is also a part of my job",
-    "The victory's formula has been set",
-    "Shall we go for a little ride?",
-    "Now, it's Showtime!",
-    "You - Me. Best Match",
-    "This is not Rotterdam, believe me",
+    "der Mann, der alles beherrschen wird",
+    "Wenn er der Stärkere ist, dann bin ich der Stärkste",
+    "Erde - Himmel",
+    "Jetzt lasst uns eure Sünden zusammenzählen!",
+    "Schön, euch zu sehen",
+    "Sich um Sie alle zu kümmern, ist auch Teil meiner Arbeit.",
+    "Die Formel für den Sieg wurde festgelegt",
+    "Sollen wir einen kleinen Ausflug machen?",
+    "Jetzt ist es Showtime!",
+    "Du - Ich. Beste Übereinstimmung",
+    "Dies ist nicht Rotterdam, glauben Sie mir",
     "Change - Stag Beetle",
-    "Make the world revolve around you",
+    "Bring die Welt dazu, sich um dich zu drehen",
     "Change - Dragonfly",
     "Change - Wasp",
-    "Spade 10 - Jack - Queen - King - Ace",
-    "Spade Heart - Diamond - Club 6 - Spade King",
-    "Tornado - Blizzard - Fire",
-    "Kick -Thunder - Mach",
+    "Pik 10 - Bube - Dame - König - Ass",
+    "Pik Herz - Karo - Kreuz 6 - Pik König",
+    "Tornado - Schneesturm - Feuer",
+    "Kick - Donner - Mach",
     "Hyper Clock Up",
     "Hyper Cast Off",
-    "You are the Rabbit and I am the Tank",
-    "We are the best",
-    "DenLiner - Where magic happen",
+    "Du bist das Kaninchen und ich bin der Panzer",
+    "Wir sind die Besten",
+    "DenLiner - Wo Magie geschieht",
     "Exceed Charge",
     "5-5-5 | 9-1-3 | 3-1-5 | 0-0-0 | Henshin",
-    "a jump to the sky turns into a rider kick",
-    "spread your wings and prepare for a force",
-    "fang that can chomp through concrete",
-    "secret material - hidden material",
-    "Explosive power of 100 bombs",
-    "Fierce breath as cold as arctic winds",
-    "in its pouch contains infinite possibilities",
-    "The rider kick increased the power by adding to brightness",
-    "A rider kick to the sky turns to take off toward a dream",
+    "ein Sprung in den Himmel wird zu einem Rider Kick",
+    "Breite deine Flügel aus und bereite dich auf eine Kraft vor",
+    "Reißzähne, die sich durch Beton fressen können",
+    "geheimes Material - verstecktes Material",
+    "Explosionskraft von 100 Bomben",
+    "Heftiger Atem, kalt wie arktische Winde",
+    "in seinem Beutel unendliche Möglichkeiten enthält",
+    "Der Rider-Kick erhöht die Leistung, indem er die Helligkeit erhöht",
+    "Ein Reiter, der in den Himmel stößt, dreht sich, um einem Traum entgegen zu fliegen",
     "Save th1s wrld",
-    "I'm just a Kamen Rider passing through. Try to remember that",
-    "Because Grandma said so",
+    "Ich bin nur ein Kamen Rider auf der Durchreise. Versuchen Sie, sich daran zu erinnern.",
+    "Weil Oma das gesagt hat",
     "G3 - Knight - Kaixa",
     "Garren - Ibuki - Gattack",
     "Zeronos - Ixa - Diend - Accel",
     "Birth - Meteor - Beast - Barron",
-    "mach - Specter - Brave",
-    "A new Memory Core has just unlocked",
-    "Now you see me, now you don't",
+    "Mach - Specter - Brave",
+    "Ein neuer Speicherkern wurde gerade freigeschaltet",
+    "Jetzt siehst du mich, jetzt nicht mehr",
 ];
 
 const typingSpeed = 54 // Typing speed in milliseconds
@@ -84,7 +84,7 @@ function typeText() {
                     setTimeout(function()
                     {
                         const DownArrow = document.createElement('img')
-                        DownArrow.src = './Img/arrowInverted.png';
+                        DownArrow.src = '../../Img/arrowInverted.png';
                         DownArrow.style.opacity = 1;
                         typingTextElement.appendChild(DownArrow)
                     }, 500);
@@ -178,7 +178,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-document.getElementById('uk-link').addEventListener('click', function(event) {
+document.getElementById('de-link').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent the default behavior (i.e., following the link)
 
     // Toggle the display property of the dropdown content
