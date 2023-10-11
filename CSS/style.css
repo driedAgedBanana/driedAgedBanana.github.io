@@ -827,7 +827,16 @@ span {
         display: flex; /* Make the items display in a row */
         justify-content: center; /* Center the items horizontally */
         list-style-type: none; /* Remove bullet points from the list */
-        padding: 0; /* Remove default padding */
+        padding: 0px; /* Remove default padding */
+    }
+
+    .brand-logo {
+        display: none;
+    }
+
+    .nav {
+        margin-left: -24px;
+        display: flex;
     }
 
     .nav-item {
@@ -991,7 +1000,6 @@ span {
 
     #instagram, #linkedin {
         margin-top: 140px;
-        margin-right: 120px;
     }
 
     .social-media span {
