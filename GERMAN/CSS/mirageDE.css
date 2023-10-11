@@ -875,12 +875,12 @@ span {
 
     .language-dropdown-content {
         position: absolute;
-        top: 135%;
+        top: 140%;
         right: 0;
         left: auto;
         overflow: hidden;
         transition: max-height 0.3s ease;
-        background-color: #A8DADC;
+        background-color: #F3FCF0;
         box-sizing: border-box;
     }
 

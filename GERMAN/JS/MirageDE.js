@@ -59,7 +59,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-document.getElementById('uk-link').addEventListener('click', function(event) {
+document.getElementById('de-link').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent the default behavior (i.e., following the link)
 
     // Toggle the display property of the dropdown content
