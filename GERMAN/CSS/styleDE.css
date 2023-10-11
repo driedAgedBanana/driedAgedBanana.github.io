@@ -164,7 +164,7 @@ body::-webkit-scrollbar-thumb:hover {
     width: 30px; /* Adjust the width as needed */
     height: auto;
     margin-right: 10px; /* Add some spacing between flag and text */
-    margin-top: -6px;
+    margin-top: -3px;
 }
 
 /* Style the dropdown content (initially hidden) */
@@ -439,7 +439,6 @@ span {
 
 .explore-me h1 {
     font-size: 165%;
-    padding-bottom: 40px;
     display: block;
     margin-right: 0;
     margin-left: 150px;
@@ -824,6 +823,13 @@ span {
         padding: 10px; /* Add some padding for space around the items */
         overflow: hidden; /* Prevent content from overflowing */
         position: relative; /* Position relative for absolute positioning of child elements */
+        text-align: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .contact-button {
+        display: none;
     }
 
     .language-selector {
@@ -838,7 +844,10 @@ span {
     }
 
     .brand-logo {
-        display: none;
+        display: flex;
+        margin-left: auto;
+        background-image: url("../../Img/WALogo.png");
+        margin-bottom: -2px;
     }
 
     .nav {
