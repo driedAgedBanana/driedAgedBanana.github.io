@@ -41,9 +41,10 @@ const randomMessages = [
     "Mach - Specter - Brave",
     "Ein neuer Speicherkern wurde gerade freigeschaltet",
     "Jetzt siehst du mich, jetzt nicht mehr",
+    "Kaffee und Socken am Morgen sind lebensrettend",
 ];
 
-const typingSpeed = 54 // Typing speed in milliseconds
+const typingSpeed = 45 // Typing speed in milliseconds
 
 // Get the element where the text will be typed
 const typingTextElement = document.getElementById("typing-text");

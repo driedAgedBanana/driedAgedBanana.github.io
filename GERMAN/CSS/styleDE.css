@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb:hover {
 .background {
     width: 100vw;
     height: 1007px;
-    background-image: url('../../Img/darkArkOne.png');
+    background-image: url('../../Img/');
     background-position: center;
     background-size: cover;
 }
