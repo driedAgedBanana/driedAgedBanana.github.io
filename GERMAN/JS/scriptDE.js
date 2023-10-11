@@ -78,7 +78,7 @@ function typeText() {
                 typingTextElement.appendChild(lineElement);
                 setTimeout(function() {
                     const welcomeText = document.createElement('div');
-                    welcomeText.textContent = "Welcome to Project Porto 1";
+                    welcomeText.textContent = "Willkommen beim Projekt Porto 1";
                     welcomeText.classList.add('fade-in');
                     typingTextElement.appendChild(welcomeText);
                     setTimeout(function()

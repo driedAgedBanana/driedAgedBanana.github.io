@@ -164,6 +164,7 @@ body::-webkit-scrollbar-thumb:hover {
     width: 30px; /* Adjust the width as needed */
     height: auto;
     margin-right: 10px; /* Add some spacing between flag and text */
+    margin-top: -6px;
 }
 
 /* Style the dropdown content (initially hidden) */
@@ -172,7 +173,7 @@ body::-webkit-scrollbar-thumb:hover {
     position: absolute;
     background-color: #EEE4E1; /* Background color of the dropdown */
     min-width: 160px; /* Adjust the width as needed */
-    min-height: 220px;
+    min-height: 210px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a shadow */
     z-index: 1;
     overflow: hidden;
@@ -393,7 +394,7 @@ span {
 
 .explore-content {
     width: 100%;
-    max-width: 800px; /* Adjust as needed */
+    max-width: 900px; /* Adjust as needed */
     padding: 150px 20px;
     color: whitesmoke;
 }
@@ -777,14 +778,14 @@ span {
     width: 50px;
     height: auto;
     margin-bottom: -80px;
-    margin-left: -230px;
+    margin-left: -270px;
 }
 
 #linkedin {
     width: 50px;
     height: auto;
     margin-bottom: -80px;
-    margin-left: -140px;
+    margin-left: -180px;
 }
 
 
@@ -855,7 +856,7 @@ span {
 
     .language-dropdown-content {
         position: absolute;
-        top: 135%;
+        top: 140%;
         right: 0;
         left: auto;
         overflow: hidden;
