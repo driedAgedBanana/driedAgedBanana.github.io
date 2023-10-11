@@ -833,6 +833,13 @@ span {
         padding: 10px; /* Add some padding for space around the items */
         overflow: hidden; /* Prevent content from overflowing */
         position: relative; /* Position relative for absolute positioning of child elements */
+        text-align: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .contact-button {
+        display: none;
     }
 
     .language-selector {
@@ -847,7 +854,10 @@ span {
     }
 
     .brand-logo {
-        display: none;
+        display: flex;
+        margin-left: auto;
+        background-image: url("../../Img/WALogo.png");
+        margin-bottom: -2px;
     }
 
     .nav {
@@ -885,7 +895,7 @@ span {
     .hero-section {
         align-items: center;
         margin: 0 auto;
-        height: 100vh;
+        height: 90.3vh;
     }
 
     .hero-content h1 {
