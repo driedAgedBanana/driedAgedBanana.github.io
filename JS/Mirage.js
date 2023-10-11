@@ -49,6 +49,16 @@ function mirageScroll() {
     }
 }
 
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
 document.getElementById('uk-link').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent the default behavior (i.e., following the link)
 
