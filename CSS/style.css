@@ -1035,7 +1035,7 @@ span {
         width: 100%;
         height: auto;
         margin-top: 10px; /* Adjust the margin as needed */
-        background-image: url("../Img/reiwabanner.png");
+        background-image: url("../Img/reiwabanner.png"); /*why wont you work*/
     }
 
     .footer-line {
