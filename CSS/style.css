@@ -811,6 +811,10 @@ span {
 /* Example of a media query for screens smaller than 800px */
 @media screen and (max-width: 800px) {
     /* Adjustments to Navigation Bar Styles */
+
+    .background {
+        background-image: url("../Img/darkMira.png");
+    }
     .menu-bar {
         width: 100%; /* Make sure it takes up the full width */
         box-sizing: border-box; /* Include padding and border in element's total width and height */
