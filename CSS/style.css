@@ -883,7 +883,7 @@ span {
     }
 
     .explore {
-        back
+        background-image: url("../Img/Heavyraindark.png");
     }
 
     .explore-me h1,
