@@ -1,0 +1,1067 @@
+body, html {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    scrollbar-width: thin;
+    scrollbar-color: red transparent;
+    font-family: 'roboto', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: transparent;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.background {
+    width: 100vw;
+    height: 1007px;
+    background-image: url('../Img/darkArkOne.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-template-areas:
+        "header header"
+        "explore explore"
+        "aboutMe operation"
+        "projects mirage"
+        "highlight highlight"
+        "footer footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.explore {
+    grid-area: explore;
+}
+
+.aboutMe {
+    grid-area: aboutMe;
+}
+
+.operation {
+    grid-area: operation;
+}
+
+.projects {
+    grid-area: projects;
+}
+
+.mirage {
+    grid-area: mirage;
+}
+
+.highlight {
+    grid-area: highlight;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.nav {
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+}
+
+.menu-bar {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar li {
+    margin-right: 20px;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.menu-bar a:hover {
+    color: #BFBDC1;
+}
+
+.contact-button {
+    color: red;
+    border-bottom: 2px solid red;
+    padding-bottom: 3px;
+}
+
+.brand-logo {
+    height: 60px;
+    margin-left: -100px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items a img{
+    width: 30px;
+}
+
+/* Style the language selector container */
+.language-selector {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the language link (Union Jack flag) */
+.language-link {
+    display: block;
+    text-decoration: none;
+    color: #333; /* Text color */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+/* Style the flag icon (you can adjust the dimensions as needed) */
+.flag-icon {
+    width: 30px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Add some spacing between flag and text */
+}
+
+/* Style the dropdown content (initially hidden) */
+.language-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #EEE4E1; /* Background color of the dropdown */
+    min-width: 160px; /* Adjust the width as needed */
+    min-height: 220px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a shadow */
+    z-index: 1;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out; /* Smooth animation */
+}
+
+/* Style the individual language options (href links) */
+.language-dropdown-content a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333; /* Text color */
+    padding: 12px 18px;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+/* Change the background color on hover */
+.language-dropdown-content a:hover {
+    background-color: #BFBDC1; /* Hover background color */
+}
+
+/* Show the dropdown content when the language link is hovered */
+.language-selector:hover .language-dropdown-content {
+    display: block;
+    max-height: 200px; /* Adjust the maximum height as needed */
+}
+
+/* Define flag icons for each language */
+.uk-flag {
+    background-image: url('img/Flag_of_the_United_Kingdom_(1-2).svg.webp');
+    /* Add other background properties as needed */
+}
+
+.de-flag {
+    background-image: url("../Img/Germanyflag.png");
+    height: 20px;
+    background-size: cover;
+}
+
+
+.nl-flag {
+    background-image: url('../Img/vlag-nederland.png');
+    height: 20px;
+    background-size: cover;
+}
+
+.fi-flag {
+    background-image: url("../Img/Flag_of_Finland.svg.png");
+    height: 20px;
+    background-size: cover;
+}
+
+.es-flag {
+    background-image: url("../Img/Bandera_de_España.svg.png");
+    height: 20px;
+    background-size: cover;
+}
+
+
+.vn-flag {
+    background-image: url('../Img/Flag_of_Vietnam.svg.png');
+    height: 20px;
+    background-size: cover;
+}
+
+.links-container{
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #d1d1d1;
+}
+
+.link{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #383838;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.link:hover{
+    opacity: 1;
+}
+
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-section .logo{
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.hero-section .sub-heading{
+    /*margin-top: 10px;*/
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 300;
+    height: 100px;
+}
+
+.content {
+    position: absolute;
+    color: white;
+
+}
+
+#down-arrow {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust height */
+    animation: fadeIn 1s ease forwards;
+}
+
+
+@keyframes moveUp {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes drawLine {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes imgfade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .move-up {
+    animation: moveUp 0.5s ease forwards;
+  }
+
+  .draw-line {
+    display: block;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: drawLine 0.5s ease forwards;
+    height: 2px;
+    margin: 10px 0;
+    background-color: red;
+  }
+
+  .fade-in {
+    display: block;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 0.5s;
+    font-size: 20px; /* Adjust the font size as needed */
+  }
+  .imgfade{
+    display: block;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    animation-delay: 1s;
+    margin-left: 45%;
+  }
+
+.sub-heading {
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+span {
+    color: red;
+}
+
+.explore {
+    width: 100%;
+    height: 20vh;
+    background-image: url('../Img/darkRainGirl.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* This enables the parallax effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.explore-content {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    padding: 150px 20px;
+    color: whitesmoke;
+}
+
+.explore-content h1 {
+    font-size: 165%;
+}
+.explore-content .line {
+    margin-bottom: 50px;
+}
+.explore-content p {
+    color: rgb(221, 221, 221);
+}
+
+
+.aboutMe {
+    width: 100%;
+    height: 115vh;
+    background-image: url(../Img/vietnamxdutch.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.friends {
+    font-size: 10px;
+}
+
+.explore-me {
+    width: 1200px;
+    margin: 0 auto;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.image-credit p {
+    font-size: 20px;
+}
+
+.explore-me h1 {
+    font-size: 165%;
+    padding-bottom: 40px;
+    display: block;
+    margin-right: 0;
+    margin-left: 150px;
+}
+
+.myIMG {
+    width: 100%;
+    margin-left: 150px;
+    max-width: 400px;
+    height: auto;
+}
+
+
+.explore-me .line {
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.explore-me p {
+    color: rgb(221, 221, 221);
+    padding-left: 0;
+    font-size: 20px;
+}
+
+
+#photo-credit {
+    font-size: 15px;
+    margin-left: 160px;
+}
+
+#credit-link {
+    text-decoration: none;
+    color: white;
+}
+
+#sd-link, #sint-link {
+    text-decoration: none;
+    color: white;
+}
+
+.sint-span {
+    color: orange;
+}
+
+.line {
+    width: 300px;
+    height: 1px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+    transform: rotate(90deg);
+}
+
+.operation {
+    width: 100%;
+    height: 20vh;
+    background-image: url('../Img/darkIana.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* This enables the parallax effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.operation-content {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    padding: 150px 20px;
+    color: whitesmoke;
+}
+
+.operation-content h1 {
+    font-size: 165%;
+}
+
+.operation-content p {
+    color: rgb(221, 221, 221);
+}
+.operation-content .ctn {
+    margin-top: 40px;
+}
+
+.projects {
+    width: 100%;
+    height: 110vh;
+    background-image: url(../Img/evendarkerWAxSint.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.projects-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.projects-content h1 {
+    font-size: 165%;
+    padding-bottom: 40px;
+    padding-left: 103px;
+}
+
+.project {
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    filter: blur(5px);
+    transition: filter 0.3s ease;
+}
+
+.project-image:hover {
+    filter: none;
+}
+
+.project-links {
+    text-decoration: none;
+    color: white;
+}
+
+
+.project h2 span {
+    color: white;
+    transition: color 0.6s ease;
+}
+
+.project:hover h2 span {
+    color: red;
+}
+
+.highlight {
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    text-align: center;
+    overflow: hidden;
+}
+
+.highlight-content {
+    z-index: 1;
+}
+
+.highlight-content h2 {
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+.highlight-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: darkred;
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.mirage-text {
+    letter-spacing: 20px;
+}
+
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+.mirage {
+    width: 100%;
+    height: 20vh;
+    background-image: url('../Img/darkDarkRotterdam.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* This enables the parallax effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mirage-content {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    padding: 150px 20px;
+    color: whitesmoke;
+}
+
+.mirage-content h1 {
+    font-size: 165%;
+}
+
+.mirage-content p {
+    color: rgb(221, 221, 221);
+}
+
+.footer {
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.footermainrow {
+    width: 100%;
+    min-height: 100px;
+    padding: 4vw 4vw 2vw;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-title {
+    margin-top: -60px;
+    text-align: left;
+}
+
+.footer-logo{
+    display: flex;
+    width: 300px;
+    height: auto;
+    margin-left: -50px;
+}
+
+.footer span, .contact-block span {
+    color: red;
+}
+
+.contact-me span {
+    color: red;
+}
+
+.contact-me {
+    flex: none;
+    color: white;
+    padding-left: 0;
+    text-align: center;
+}
+
+.footercaps {
+    max-width: 28vw;
+    letter-spacing: 0.1vw;
+    text-transform: uppercase;
+    margin-bottom: 1vw;
+    font-size: 1vw;
+    line-height: 1.4vw;
+    margin-left: 35%;
+    padding-bottom: 1px;
+    margin-top: -165px;
+}
+
+.question-button {
+    width: 250px;
+    height: auto;
+    text-transform: uppercase;
+    background-color: red;
+    border: 1px solid;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 1em 15px;
+    font-size: 1vw;
+    line-height: 1.6em;
+    transition: 0.5s;
+}
+
+.question-button:hover {
+    background-color: white;
+    color: red;
+}
+
+
+.social-media {
+    margin-left: 70%;
+    margin-top: -100px;
+    letter-spacing: 0.1vw;
+    text-transform: uppercase;
+    font-size: 1vw;
+    line-height: 1.4vw;
+}
+
+#instagram {
+    width: 50px;
+    height: auto;
+    margin-bottom: -80px;
+    margin-left: -230px;
+}
+
+#linkedin {
+    width: 50px;
+    height: auto;
+    margin-bottom: -80px;
+    margin-left: -140px;
+}
+
+
+.footer-line {
+    border-top: 1px solid red;
+}
+
+.footer-cap-content {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.footer-banner {
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.footer-cap-content span {
+    color: red;
+}
+
+/* Example of a media query for screens smaller than 800px */
+@media screen and (max-width: 800px) {
+    /* Adjustments to Navigation Bar Styles */
+
+    .background {
+        background-image: url("../Img/darkMira.png");
+    }
+    .menu-bar {
+        width: 100%; /* Make sure it takes up the full width */
+        box-sizing: border-box; /* Include padding and border in element's total width and height */
+        padding: 10px; /* Add some padding for space around the items */
+        overflow: hidden; /* Prevent content from overflowing */
+        position: relative; /* Position relative for absolute positioning of child elements */
+        text-align: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .contact-button {
+        display: none;
+    }
+
+    .language-selector {
+        float: right; /* Float to the right */
+    }
+
+    .nav-items {
+        display: flex; /* Make the items display in a row */
+        justify-content: center; /* Center the items horizontally */
+        list-style-type: none; /* Remove bullet points from the list */
+        padding: 0px; /* Remove default padding */
+    }
+
+    .brand-logo {
+        display: flex;
+        margin-left: auto;
+        background-image: url("../Img/WALogo.png");
+        margin-bottom: -2px;
+    }
+
+    .nav {
+        margin-left: -24px;
+        display: flex;
+    }
+
+    .nav-item {
+        margin: 0 10px; /* Add some space between the items */
+    }
+
+    .nav-items a img {
+        margin-left: -15px;
+        width: 30px;
+    }
+
+    .language-dropdown-content {
+        position: absolute;
+        top: 135%;
+        right: 0;
+        left: auto;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        background-color: #F3FCF0;
+        box-sizing: border-box;
+    }
+
+    .Ass {
+        background-color: red;
+    }
+
+    .Assh1 {
+        color: black;
+    }
+
+    .aboutMe {
+        height: auto;
+        background-image: url("../Img/darkfaiz.png");
+    }
+
+    .explore-me {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .explore {
+        background-image: url("../Img/DutchVietDarkPhone.png");
+    }
+
+    .explore-me h1,
+    .explore-me p {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .myIMG {
+        width: 80%;
+        margin-left: 10px;
+        max-width: 300px;
+        height: auto;
+    }
+
+    #photo-credit,
+    #credit-link,
+    #sd-link {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .line {
+        margin: 50px auto;
+        display: block;
+        width: 150px;
+        transform: none;
+    }
+
+    .operation {
+        background-image: url("../Img/Heavyraindark.png");
+    }
+
+    .projects {
+        height: auto;
+        background-image: none; /* Remove the background image on smaller screens */
+    }
+
+    .projects-content {
+        flex-direction: column; /* Stack projects vertically on smaller screens */
+        align-items: center;
+        text-align: center;
+    }
+
+    .projects-content h1 {
+        font-size: 150%; /* Adjust the font size as needed */
+        padding-bottom: 20px;
+        padding-left: 0;
+    }
+
+    .project {
+        width: 100%; /* Take up full width */
+        margin-bottom: 30px; /* Add some spacing between projects */
+    }
+
+    .project h2 {
+        font-size: 20px; /* Adjust the font size as needed */
+    }
+
+    .project h2 span {
+        color: red;
+    }
+
+    .project p {
+        font-size: 14px; /* Adjust the font size as needed */
+    }
+
+    .project-image {
+        max-width: 100%;
+        height: auto;
+        filter: none;
+    }
+
+    .highlight-content {
+        padding: 50px 20px; /* Adjust padding for mobile */
+        text-align: center;
+    }
+
+    .highlight-content h2 {
+        font-size: 2em; /* Adjust font size for mobile */
+    }
+
+    .highlight-content p {
+        font-size: 1em; /* Adjust font size for mobile */
+    }
+
+    .highlight-content .btn {
+        margin-top: 20px; /* Add some space between text and button */
+    }
+
+    .footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-top: 12px;
+    }
+
+    .footermainrow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -90px;
+    }
+
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Add this line to horizontally center the logo */
+        margin-bottom: -20px; /* Add some space between the logo and text */
+        margin-left: -5px;
+    }
+
+    .footer-title {
+        font-size: 14px;
+        margin-bottom: 1px;
+    }
+
+    .footercaps {
+        font-size: 16px; /* Adjust the font size as needed */
+        line-height: 1.5; /* Add some line height for better spacing */
+        max-width: 70%; /* Limit the width to improve readability */
+        margin: 0 auto; /* Center the text */
+        text-align: center; /* Center the text */
+        padding-top: 10px;
+    }
+
+    #instagram, #linkedin {
+        margin-top: 140px;
+    }
+
+    .social-media span {
+        color: black;
+    }
+
+    .social-media {
+        color: black;
+    }
+
+    .question-button {
+        font-size: 14px;
+        padding: 10px 20px;
+        border: 2px solid red;
+        background-color: transparent;
+        color: red;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        margin-top: 10px;
+    }
+
+    .question-button:hover {
+        background-color: red;
+        color: white;
+    }
+
+    .footer-banner {
+        width: 100%;
+        height: auto;
+        margin-top: 10px; /* Adjust the margin as needed */
+        background-image: url("../Img/reiwabanner.png"); /*why wont you work*/
+    }
+
+    .footer-line {
+        margin-top: 100px; /* Adjust the padding as needed */
+    }
+}
+
+
+
