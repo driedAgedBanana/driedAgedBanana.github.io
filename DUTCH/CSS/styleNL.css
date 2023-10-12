@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb:hover {
 .background {
     width: 100vw;
     height: 1007px;
-    background-image: url('../../Img/InvitationalBlack.png');
+    background-image: url('../../Img/bigCroppedIana.png');
     background-position: center;
     background-size: cover;
 }
@@ -173,7 +173,7 @@ body::-webkit-scrollbar-thumb:hover {
     position: absolute;
     background-color: #EEE4E1; /* Background color of the dropdown */
     min-width: 160px; /* Adjust the width as needed */
-    min-height: 210px;
+    min-height: 127px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a shadow */
     z-index: 1;
     overflow: hidden;
@@ -495,7 +495,7 @@ span {
 .operation {
     width: 100%;
     height: 20vh;
-    background-image: url('../../Img/darkIana.png');
+    background-image: url('../../Img/winningSledge.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed; /* This enables the parallax effect */
@@ -662,7 +662,7 @@ span {
 .mirage {
     width: 100%;
     height: 20vh;
-    background-image: url('../../Img/darkDarkRotterdam.png');
+    background-image: url('../../Img/Wamaidark.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed; /* This enables the parallax effect */
@@ -741,7 +741,7 @@ span {
     line-height: 1.4vw;
     margin-left: 35%;
     padding-bottom: 1px;
-    margin-top: -210px;
+    margin-top: -170px;
 }
 
 .question-button {
@@ -815,7 +815,7 @@ span {
     /* Adjustments to Navigation Bar Styles */
 
     .background {
-        background-image: url("../../Img/GSG9Phone.png");
+        background-image: url("../../Img/OryxDarkPhone.png");
     }
     .menu-bar {
         width: 100%; /* Make sure it takes up the full width */
@@ -861,6 +861,7 @@ span {
 
     .nav-items a img {
         width: 30px;
+        margin-left: -15px;
     }
 
     .language-dropdown-content {

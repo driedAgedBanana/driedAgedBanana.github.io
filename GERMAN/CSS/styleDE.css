@@ -173,7 +173,7 @@ body::-webkit-scrollbar-thumb:hover {
     position: absolute;
     background-color: #EEE4E1; /* Background color of the dropdown */
     min-width: 160px; /* Adjust the width as needed */
-    min-height: 210px;
+    min-height: 127px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a shadow */
     z-index: 1;
     overflow: hidden;

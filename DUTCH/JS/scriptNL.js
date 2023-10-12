@@ -1,47 +1,48 @@
 // Array of random messages to be typed
 const randomMessages = [
-    "Auf dem Pfad des Himmels wandeln",
-    "der Mann, der alles beherrschen wird",
-    "Wenn er der Stärkere ist, dann bin ich der Stärkste",
-    "Jetzt lasst uns eure Sünden zusammenzählen!",
-    "Schön, euch zu sehen",
-    "Sich um Sie alle zu kümmern, ist auch Teil meiner Arbeit",
-    "Die Formel für den Sieg wurde festgelegt",
-    "Sollen wir einen kleinen Ausflug machen?",
-    "Jetzt ist es Showtime!",
-    "Du - Ich. Beste Übereinstimmung",
-    "Dies ist nicht Rotterdam, glauben Sie mir",
+    "Wandelen op het pad van de hemel",
+    "Change - Beetle",
+    "de man die over alles zal heersen",
+    "Als hij sterker is, dan ben ik de sterkste",
+    "Laten we nu je zonden gaan tellen!",
+    "Goed om jullie te zien",
+    "Voor jullie allemaal zorgen, is ook een deel van mijn werk",
+    "De overwinningsformule is vastgesteld",
+    "Zullen we een kleinje ritje maken?",
+    "Nu is het showtime!",
+    "Jij - Ik. Beste duo",
+    "Dit is Rotterdam niet, geloof me",
     "Change - Stag Beetle",
-    "Bring die Welt dazu, sich um dich zu drehen",
-    "Käfer - Wespe - Skorpion - Klapperschlange",
-    "Pik 10 - Bube - Dame - König - Ass",
+    "Laat de wereld om jou draaien",
+    "Kever - Wesp - Schorpioen - Bastaardkever",
+    "Schoppen 10 - Boer - Vrouw - Koning - Aas",
     "Pik Herz - Karo - Kreuz 6 - Pik König",
-    "Tornado - Schneesturm - Feuer",
-    "Kick - Donner - Mach",
-    "Du bist das Kaninchen und ich bin der Panzer",
-    "Wir sind die Besten",
-    "DenLiner - Wo Magie geschieht",
+    "Schoppen Harten - Ruiten - Klaveren 6 - Schoppen Koning",
+    "Kick - Donder - Mach",
+    "Jij bent het Konijn en ik ben de Tank",
+    "Wij zijn de beste",
+    "DenLiner - Waar magie ontstaat",
     "5-5-5 | 9-1-3 | 3-1-5 | 0-0-0 | Henshin",
-    "ein Sprung in den Himmel wird zu einem Rider Kick",
-    "Breite deine Flügel aus und bereite dich auf eine Kraft vor",
-    "Reißzähne, die sich durch Beton fressen können",
-    "geheimes Material - verstecktes Material",
-    "Explosionskraft von 100 Bomben",
-    "Heftiger Atem, kalt wie arktische Winde",
-    "in seinem Beutel unendliche Möglichkeiten enthält",
-    "Der Rider-Kick erhöht die Leistung, indem er die Helligkeit erhöht",
-    "Ein Reiter, der in den Himmel stößt, dreht sich, um einem Traum entgegen zu fliegen",
-    "Kann bitte jemand diese Welt retten?",
-    "Ich bin nur ein Kamen Rider auf der Durchreise. Versuchen Sie, sich daran zu erinnern.",
-    "Weil Oma das gesagt hat",
+    "een sprong in de hemel wordt een ruitertrap",
+    "Spreid je vleugels en bereid je voor op een kracht",
+    "Hoektanden die door beton heen kunnen vreten",
+    "geheim materiaal - verborgen materiaal",
+    "Ontploffingskracht van 100 bommen",
+    "Felle adem zo koud als poolwinden",
+    "in haar buidel oneindige mogelijkheden bevat",
+    "De Rider kick verhoogde de kracht door aan helderheid toe te voegen",
+    "Een Rider schopt naar de hemel om op te stijgen naar een droom",
+    "Kan iemand deze wereld alsjeblieft redden?",
+    "Ik ben gewoon een Kamen Rider die passeert. Probeer te onthouden dat",
+    "Omdat grootmoeder het zei",
     "G3 - Knight - Kaixa",
     "Garren - Ibuki - Gattack",
     "Zeronos - Ixa - Diend - Accel",
     "Birth - Meteor - Beast - Barron",
     "Mach - Specter - Brave",
-    "Ein neuer Speicherkern wurde gerade freigeschaltet",
-    "Jetzt siehst du mich, jetzt nicht mehr",
-    "Kaffee und Socken am Morgen sind lebensrettend",
+    "Er is zojuist een nieuwe geheugenkern ontgrendeld",
+    "Nu zie je me, nu niet meer",
+    "Koffie en sokken in de ochtend zijn redders in nood",
 ];
 
 const typingSpeed = 45 // Typing speed in milliseconds
@@ -73,7 +74,7 @@ function typeText() {
                 typingTextElement.appendChild(lineElement);
                 setTimeout(function() {
                     const welcomeText = document.createElement('div');
-                    welcomeText.textContent = "Willkommen beim Projekt Porto 1";
+                    welcomeText.textContent = "Welkom bij Project Porto 1";
                     welcomeText.classList.add('fade-in');
                     typingTextElement.appendChild(welcomeText);
                     setTimeout(function()
@@ -173,7 +174,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-document.getElementById('de-link').addEventListener('click', function(event) {
+document.getElementById('nl-link').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent the default behavior (i.e., following the link)
 
     // Toggle the display property of the dropdown content
