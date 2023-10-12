@@ -3,7 +3,7 @@ body, html {
     padding: 0;
     margin: 0;
     scrollbar-width: thin;
-    scrollbar-color: red transparent;
+    scrollbar-color: #FF9B00 transparent;
     font-family: 'roboto', sans-serif;
 }
 
@@ -126,8 +126,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .contact-button {
-    color: red;
-    border-bottom: 2px solid red;
+    color: #FF9B00;
+    border-bottom: 2px solid #FF9B00;
     padding-bottom: 3px;
 }
 
@@ -349,7 +349,7 @@ body::-webkit-scrollbar-thumb:hover {
     animation: drawLine 0.5s ease forwards;
     height: 2px;
     margin: 10px 0;
-    background-color: red;
+    background-color: #FF9B00;
   }
 
   .fade-in {
@@ -376,7 +376,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 span {
-    color: red;
+    color: #FF9B00;
 }
 
 .explore {
@@ -480,13 +480,13 @@ span {
 }
 
 .sint-span {
-    color: orange;
+    color: #FF9B00;
 }
 
 .line {
     width: 300px;
     height: 1px;
-    background: red;
+    background: #FF9B00;
     margin: 10px auto;
     border-radius: 5px;
     transform: rotate(90deg);
@@ -590,7 +590,7 @@ span {
 }
 
 .project:hover h2 span {
-    color: red;
+    color: #FF9B00 ;
 }
 
 .highlight {
@@ -626,14 +626,14 @@ span {
     padding: 10px 20px;
     font-size: 1em;
     color: white;
-    background-color: red;
+    background-color: #FF9B00;
     text-decoration: none;
     border: none;
     transition: background-color 0.3s;
 }
 
 .btn:hover {
-    background-color: darkred;
+    background-color: #FF9B00 ;
 }
 
 .background-video {
@@ -722,7 +722,7 @@ span {
 }
 
 .contact-me span {
-    color: red;
+    color: #FF9B00 ;
 }
 
 .contact-me {
@@ -748,7 +748,7 @@ span {
     width: 250px;
     height: auto;
     text-transform: uppercase;
-    background-color: red;
+    background-color: #FF9B00 ;
     border: 1px solid;
     border-radius: 0;
     margin-bottom: 0;
@@ -789,7 +789,7 @@ span {
 
 
 .footer-line {
-    border-top: 1px solid red;
+    border-top: 1px solid #FF9B00 ;
 }
 
 .footer-cap-content {
@@ -807,7 +807,7 @@ span {
 }
 
 .footer-cap-content span {
-    color: red;
+    color: orange;
 }
 
 /* Example of a media query for screens smaller than 800px */
