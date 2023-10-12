@@ -170,33 +170,33 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .de-flag {
-    background-image: url("../Img/Germanyflag.png");
+    background-image: url("../../Img/Germanyflag.png");
     height: 20px;
     background-size: cover;
 }
 
 
 .nl-flag {
-    background-image: url('../Img/vlag-nederland.png');
+    background-image: url('../../Img/vlag-nederland.png');
     height: 20px;
     background-size: cover;
 }
 
 .fi-flag {
-    background-image: url("../Img/Flag_of_Finland.svg.png");
+    background-image: url("../../Img/Flag_of_Finland.svg.png");
     height: 20px;
     background-size: cover;
 }
 
 .es-flag {
-    background-image: url("../Img/Bandera_de_España.svg.png");
+    background-image: url("../../Img/Bandera_de_España.svg.png");
     height: 20px;
     background-size: cover;
 }
 
 
 .vn-flag {
-    background-image: url('../Img/Flag_of_Vietnam.svg.png');
+    background-image: url('../../Img/Flag_of_Vietnam.svg.png');
     height: 20px;
     background-size: cover;
 }
@@ -363,7 +363,7 @@ span {
 .explore {
     width: 100%;
     height: 20vh;
-    background-image: url('../Img/darkRotte.png');
+    background-image: url('../../Img/darkRotte.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed; /* This enables the parallax effect */
@@ -394,7 +394,7 @@ span {
 .aboutMe {
     width: 100%;
     height: 115vh;
-    background-image: url(../Img/rotterxValkdark.png);
+    background-image: url(../../Img/rotterxValkdark.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -458,7 +458,7 @@ span {
 .operation {
     width: 100%;
     height: 20vh;
-    background-image: url('../Img/neverwalkalonedark.png');
+    background-image: url('../../Img/neverwalkalonedark.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed; /* This enables the parallax effect */
@@ -489,7 +489,7 @@ span {
 .projects {
     width: 100%;
     height: 110vh;
-    background-image: url(../Img/crimeboarddark.png);
+    background-image: url(../../Img/crimeboarddark.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -624,7 +624,7 @@ span {
 .mirage {
     width: 100%;
     height: 20vh;
-    background-image: url('../Img/darkDarkRotterdam.png');
+    background-image: url('../../Img/darkDarkRotterdam.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed; /* This enables the parallax effect */
@@ -652,7 +652,7 @@ span {
 .mirage-canva {
     width: 100%;
     height: 115vh;
-    background-image: url(../Img/Policedonotcross.png);
+    background-image: url(../../Img/Policedonotcross.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -839,7 +839,7 @@ span {
     .brand-logo {
         display: flex;
         margin-left: auto;
-        background-image: url("../Img/WALogo.png");
+        background-image: url("../../Img/WALogo.png");
         margin-bottom: -2px;
     }
 
@@ -890,7 +890,7 @@ span {
 
     .aboutMe {
         height: auto; /* Adjust the height as needed */
-        background-image: url("../Img/RotterdamxValkphone.png");
+        background-image: url("../../Img/RotterdamxValkphone.png");
     }
 
     .explore-me {
@@ -1075,7 +1075,7 @@ span {
         width: 100%;
         height: auto;
         margin-top: 10px; /* Adjust the margin as needed */
-        background-image: url("../Img/reiwabanner.png");
+        background-image: url("../../Img/reiwabanner.png");
     }
 
     .footer-line {
