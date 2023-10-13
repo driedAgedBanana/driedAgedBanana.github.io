@@ -3,7 +3,7 @@ body, html {
     padding: 0;
     margin: 0;
     scrollbar-width: thin;
-    scrollbar-color: #FF9B00 transparent;
+    scrollbar-color: #ff6600 transparent;
     font-family: 'roboto', sans-serif;
 }
 
@@ -126,8 +126,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .contact-button {
-    color: #FF9B00;
-    border-bottom: 2px solid #FF9B00;
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
     padding-bottom: 3px;
 }
 
@@ -349,7 +349,7 @@ body::-webkit-scrollbar-thumb:hover {
     animation: drawLine 0.5s ease forwards;
     height: 2px;
     margin: 10px 0;
-    background-color: #FF9B00;
+    background-color: #ff6600;
   }
 
   .fade-in {
@@ -376,7 +376,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 span {
-    color: #FF9B00;
+    color: #ff6600;
 }
 
 .explore {
@@ -480,13 +480,17 @@ span {
 }
 
 .sint-span {
-    color: #FF9B00;
+    color: #ff6600;
+}
+
+#span-vietnam {
+    color: red;
 }
 
 .line {
     width: 300px;
     height: 1px;
-    background: #FF9B00;
+    background: #ff6600;
     margin: 10px auto;
     border-radius: 5px;
     transform: rotate(90deg);
@@ -590,7 +594,7 @@ span {
 }
 
 .project:hover h2 span {
-    color: #FF9B00 ;
+    color: #ff6600;
 }
 
 .highlight {
@@ -633,7 +637,7 @@ span {
 }
 
 .btn:hover {
-    background-color: #FF9B00 ;
+    background-color: orangered;
 }
 
 .background-video {
@@ -748,7 +752,7 @@ span {
     width: 250px;
     height: auto;
     text-transform: uppercase;
-    background-color: #FF9B00 ;
+    background-color: #ff6600;
     border: 1px solid;
     border-radius: 0;
     margin-bottom: 0;
@@ -789,7 +793,7 @@ span {
 
 
 .footer-line {
-    border-top: 1px solid #FF9B00 ;
+    border-top: 1px solid #ff6600;
 }
 
 .footer-cap-content {
@@ -807,7 +811,7 @@ span {
 }
 
 .footer-cap-content span {
-    color: orange;
+    color: #ff6600;
 }
 
 /* Example of a media query for screens smaller than 800px */
@@ -957,7 +961,7 @@ span {
     }
 
     .project h2 span {
-        color: red;
+        color: #ff6600;
     }
 
     .project p {
@@ -1038,9 +1042,9 @@ span {
     .question-button {
         font-size: 14px;
         padding: 10px 20px;
-        border: 2px solid red;
+        border: 2px solid #ff6600;
         background-color: transparent;
-        color: red;
+        color: #ff6600;
         border-radius: 25px;
         cursor: pointer;
         transition: background-color 0.3s, color 0.3s;
