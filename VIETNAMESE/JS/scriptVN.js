@@ -19,7 +19,7 @@ const randomMessages = [
     "5-5-5 | 9-1-3 | 3-1-5 | 0-0-0 | Henshin",
     "Một cú nhảy lên trời bỗng nhiên trở thành một cú đá",
     "Sải cánh và hãy chuẩn bị cho một luồn sóng xung kích",
-    "Con mập với đôi hàm có thể nghiền nát bê tông",
+    "Con mập với đôi hàm có thể nghiền nát một tảng bê tông khổng lồ",
     "Kích hoạt Một vụ nổ với sức mạnh của 100 quả bom",
     "Hơi thở băng giá lạnh lẽo như những cơn gió trên gác mái",
     "Trong túi của nó chứa vô vàn những cơ hội khác nhau",
@@ -33,7 +33,7 @@ const randomMessages = [
     "Cà phê và tất vào buổi sáng. Nó vừa cứu tôi khỏi một cuộc đại họa",
     "Mắt bạn đẹp đấy. Sẽ thật là phí phạm nếu cứ để nó nhìn vào hư vô như vậy",
     "Hai chú thỏ đáng yêu tung tăng trên đồng cỏ hoa phượng với tốc độ cận âm",
-    "Không gì bằng 5 cánh sao thống nhất làm 1 trên một tấm vải đỏ tươi",
+    "Không gì bằng 5 cánh sao thống nhất làm 1 trên tấm vải đỏ tươi",
 ];
 
 const typingSpeed = 40 // Typing speed in milliseconds
