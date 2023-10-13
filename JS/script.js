@@ -46,6 +46,7 @@ const randomMessages = [
     "mach - Specter - Brave",
     "A new Memory Core has just unlocked",
     "Now you see me, now you don't",
+    "No more Swansea - This is Porto",
 ];
 
 const typingSpeed = 54 // Typing speed in milliseconds

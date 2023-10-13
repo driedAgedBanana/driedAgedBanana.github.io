@@ -3,7 +3,7 @@ body, html {
     padding: 0;
     margin: 0;
     scrollbar-width: thin;
-    scrollbar-color: #ff6600 transparent;
+    scrollbar-color: red transparent;
     font-family: 'roboto', sans-serif;
 }
 
@@ -126,8 +126,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .contact-button {
-    color: #ff6600;
-    border-bottom: 2px solid #ff6600;
+    color: #ffd700;
+    border-bottom: 2px solid #ffd700;
     padding-bottom: 3px;
 }
 
@@ -349,7 +349,7 @@ body::-webkit-scrollbar-thumb:hover {
     animation: drawLine 0.5s ease forwards;
     height: 2px;
     margin: 10px 0;
-    background-color: #ff6600;
+    background-color: #ffd700;
   }
 
   .fade-in {
@@ -376,7 +376,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 span {
-    color: #ff6600;
+    color: #ffd700;
 }
 
 .explore {
@@ -490,7 +490,7 @@ span {
 .line {
     width: 300px;
     height: 1px;
-    background: #ff6600;
+    background: #ffd700;
     margin: 10px auto;
     border-radius: 5px;
     transform: rotate(90deg);
@@ -594,7 +594,7 @@ span {
 }
 
 .project:hover h2 span {
-    color: #ff6600;
+    color: #ffd700;
 }
 
 .highlight {
@@ -630,14 +630,14 @@ span {
     padding: 10px 20px;
     font-size: 1em;
     color: white;
-    background-color: #FF9B00;
+    background-color: #ffd700;
     text-decoration: none;
     border: none;
     transition: background-color 0.3s;
 }
 
 .btn:hover {
-    background-color: orangered;
+    background-color: red;
 }
 
 .background-video {
@@ -726,7 +726,7 @@ span {
 }
 
 .contact-me span {
-    color: #FF9B00 ;
+    color: #ffd700;
 }
 
 .contact-me {
@@ -752,7 +752,7 @@ span {
     width: 250px;
     height: auto;
     text-transform: uppercase;
-    background-color: #ff6600;
+    background-color: #ffd700;
     border: 1px solid;
     border-radius: 0;
     margin-bottom: 0;
@@ -781,19 +781,19 @@ span {
     width: 50px;
     height: auto;
     margin-bottom: -80px;
-    margin-left: -270px;
+    margin-left: -65px;
 }
 
 #linkedin {
     width: 50px;
     height: auto;
     margin-bottom: -80px;
-    margin-left: -180px;
+    margin-left: 30px;
 }
 
 
 .footer-line {
-    border-top: 1px solid #ff6600;
+    border-top: 1px solid #ffd700;
 }
 
 .footer-cap-content {
@@ -811,7 +811,7 @@ span {
 }
 
 .footer-cap-content span {
-    color: #ff6600;
+    color: #ffd700;
 }
 
 /* Example of a media query for screens smaller than 800px */
@@ -961,7 +961,7 @@ span {
     }
 
     .project h2 span {
-        color: #ff6600;
+        color: #ffd700;
     }
 
     .project p {
@@ -1042,9 +1042,9 @@ span {
     .question-button {
         font-size: 14px;
         padding: 10px 20px;
-        border: 2px solid #ff6600;
+        border: 2px solid #ffd700;
         background-color: transparent;
-        color: #ff6600;
+        color: #ffd700;
         border-radius: 25px;
         cursor: pointer;
         transition: background-color 0.3s, color 0.3s;
