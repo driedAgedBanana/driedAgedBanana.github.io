@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb:hover {
 .background {
     width: 100vw;
     height: 1007px;
-    background-image: url('../Img/darkClashMaesRight.png');
+    background-image: url('../Img/DragAgeDark.png');
     background-position: center;
     background-size: cover;
 }
@@ -132,7 +132,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .brand-logo {
-    height: 60px;
+    height: 80px;
+    width: auto;
     margin-left: -100px;
 }
 

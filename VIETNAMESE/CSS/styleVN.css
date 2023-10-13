@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb:hover {
 .background {
     width: 100vw;
     height: 1007px;
-    background-image: url('../../Img/bigCroppedIana.png');
+    background-image: url('../../Img/BatVdark.png');
     background-position: center;
     background-size: cover;
 }
@@ -819,7 +819,7 @@ span {
     /* Adjustments to Navigation Bar Styles */
 
     .background {
-        background-image: url("../../Img/OryxDarkPhone.png");
+        background-image: url("../../Img/darkChief.png");
     }
     .menu-bar {
         width: 100%; /* Make sure it takes up the full width */
