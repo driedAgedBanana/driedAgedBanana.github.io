@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     margin: 0;
     scrollbar-width: thin;
-    scrollbar-color: red transparent;
+    scrollbar-color: #4169e1 transparent;
 }
 
 body::-webkit-scrollbar {
@@ -89,8 +89,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .contact-button {
-    color: red;
-    border-bottom: 2px solid red;
+    color: #4169e1;
+    border-bottom: 2px solid #4169e1;
     padding-bottom: 3px;
 }
 
@@ -135,7 +135,7 @@ body::-webkit-scrollbar-thumb:hover {
     position: absolute;
     background-color: #fff; /* Background color of the dropdown */
     min-width: 160px; /* Adjust the width as needed */
-    min-height: 220px;
+    min-height: 127px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a shadow */
     z-index: 1;
     overflow: hidden;
@@ -245,7 +245,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .hero-content h1 {
-    color: red;
+    color: #4169e1;
     font-size: 90px; /* Adjust font size as needed */
     letter-spacing: 40px;
     text-align: center;
@@ -330,7 +330,7 @@ body::-webkit-scrollbar-thumb:hover {
     animation: drawLine 0.5s ease forwards;
     height: 2px;
     margin: 10px 0;
-    background-color: red;
+    background-color: #4169e1;
   }
   
   .fade-in {
@@ -357,7 +357,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 span {
-    color: red;
+    color: #4169e1;
 }
 
 .explore {
@@ -449,7 +449,7 @@ span {
 .line {
     width: 300px;
     height: 1px;
-    background: red;
+    background: #4169e1;
     margin: 10px auto;
     border-radius: 5px;
     transform: rotate(90deg);
@@ -553,7 +553,7 @@ span {
 }
 
 .project:hover h2 span {
-    color: red;
+    color: #4169e1;
 }
 
 .highlight {
@@ -588,7 +588,7 @@ span {
     padding: 10px 20px;
     font-size: 1em;
     color: white;
-    background-color: red;
+    background-color: #4169e1;
     text-decoration: none;
     border: none;
     transition: background-color 0.3s;
@@ -723,7 +723,7 @@ span {
 }
 
 .contact-me span {
-    color: red;
+    color: #4169e1;
 }
 
 .contact-me {
@@ -749,7 +749,7 @@ span {
     width: 200px;
     height: auto;
     text-transform: uppercase;
-    background-color: red;
+    background-color: #4169e1;
     border: 1px solid;
     border-radius: 0;
     margin-bottom: 0;
@@ -765,7 +765,7 @@ span {
 }
 
 .contact-block span {
-    color: red;
+    color: #4169e1;
 }
 
 .social-media {
@@ -793,7 +793,7 @@ span {
 
 
 .footer-line {
-    border-top: 1px solid red;
+    border-top: 1px solid #4169e1;
 }
 
 .footer-cap-content {
@@ -811,7 +811,7 @@ span {
 }
 
 .footer-cap-content span {
-    color: red;
+    color: #4169e1;
 }
 
 @media (max-width: 800px) {
@@ -946,7 +946,7 @@ span {
     }
 
     .project h2 span {
-        color: red;
+        color: #4169e1;
     }
 
     .project p {
@@ -1057,9 +1057,9 @@ span {
     .question-button {
         font-size: 14px;
         padding: 10px 20px;
-        border: 2px solid red;
+        border: 2px solid #4169e1;
         background-color: transparent;
-        color: red;
+        color: #4169e1;
         border-radius: 25px;
         cursor: pointer;
         transition: background-color 0.3s, color 0.3s;

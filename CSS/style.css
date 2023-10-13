@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb:hover {
 .background {
     width: 100vw;
     height: 1007px;
-    background-image: url('../Img/clashMaesDark.png');
+    background-image: url('../Img/darkClashMaesRight.png');
     background-position: center;
     background-size: cover;
 }
