@@ -43,6 +43,10 @@ const randomMessages = [
     "Nu zie je me, nu niet meer",
     "Koffie en sokken in de ochtend zijn redders in nood",
     "Omdat jullie dat vragen - Swansea is niet hetzelfde als Porto",
+    "Zij een scheppend vuur, niet een wolk van mist",
+    "In niets gaat er boven een wapperende rood wit blauw in de wind.",
+    "Je denk te veel. Doe het",
+    "Zullen we voor de grap een dagje gaan uithangen?",
 ];
 
 const typingSpeed = 45 // Typing speed in milliseconds

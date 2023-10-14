@@ -49,7 +49,7 @@ const randomMessages = [
     "No more Swansea - This is Porto",
 ];
 
-const typingSpeed = 54 // Typing speed in milliseconds
+const typingSpeed = 40 // Typing speed in milliseconds
 
 // Get the element where the text will be typed
 const typingTextElement = document.getElementById("typing-text");

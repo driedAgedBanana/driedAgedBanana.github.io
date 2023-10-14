@@ -1,6 +1,6 @@
 // Array of random messages to be typed
 const randomMessages = [
-    "Lăn tăn trên đường tới thiên đàng",
+    "Lăn tăn trên con đường tới thiên đàng",
     "Người mà sẽ thống trị tất cả",
     "Nếu anh ta là Stronger, thì tôi sẽ là Strongest",
     "Không phiền nếu tôi đo đếm tội lỗi của bạn chứ?",
@@ -16,7 +16,6 @@ const randomMessages = [
     "Bạn là một chú thỏ và tôi là một cỗ xe tăng",
     "Chúng ta là một cặp đôi bất khả chiến bại",
     "DenLiner - Nơi những điều diệu kỳ xảy ra",
-    "5-5-5 | 9-1-3 | 3-1-5 | 0-0-0 | Henshin",
     "Một cú nhảy lên trời bỗng nhiên trở thành một cú đá",
     "Sải cánh và hãy chuẩn bị cho một luồn sóng xung kích",
     "Con mập với đôi hàm có thể nghiền nát một tảng bê tông khổng lồ",
@@ -34,6 +33,10 @@ const randomMessages = [
     "Mắt bạn đẹp đấy. Sẽ thật là phí phạm nếu cứ để nó nhìn vào hư vô như vậy",
     "Hai chú thỏ đáng yêu tung tăng trên đồng cỏ hoa phượng với tốc độ cận âm",
     "Không gì bằng 5 cánh sao thống nhất làm 1 trên tấm vải đỏ tươi",
+    "Không gì có thể ngăn cản chúng ta",
+    "Hãy là ngọn lửa kiến tạo, đừng là đám khói mù mịt",
+    "Sợ hãi là một rào chắn vô hình. Vượt qua nó và bạn sẽ thống trị tất cả",
+    "Nghĩ ngợi nhiều làm gì cho đau đầu. Làm đi",
 ];
 
 const typingSpeed = 40 // Typing speed in milliseconds
