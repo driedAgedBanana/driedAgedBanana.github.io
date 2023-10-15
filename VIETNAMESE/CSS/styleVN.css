@@ -810,6 +810,10 @@ span {
     height: auto;
 }
 
+.phone-footer-banner {
+    display: none;
+}
+
 .footer-cap-content span {
     color: #ffd700;
 }
@@ -1027,8 +1031,13 @@ span {
         padding-top: 10px;
     }
 
-    #instagram, #linkedin {
+    #instagram {
         margin-top: 140px;
+        margin-left: -184px;
+    }
+
+    #linkedin {
+        margin-left: -100px;
     }
 
     .social-media span {
@@ -1057,10 +1066,15 @@ span {
     }
 
     .footer-banner {
+        display: none;
+    }
+
+    .phone-footer-banner {
+        display: flex;
         width: 100%;
         height: auto;
         margin-top: 10px; /* Adjust the margin as needed */
-        background-image: url("../../Img/reiwabanner.png"); /*why wont you work*/
+        background-image: url('../../Img/reiwabanner.png');
     }
 
     .footer-line {
