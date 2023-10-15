@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     margin: 0;
     scrollbar-width: thin;
-    scrollbar-color: #ff6600 transparent;
+    scrollbar-color: red transparent;
 }
 
 body::-webkit-scrollbar {
@@ -87,8 +87,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .contact-button {
-    color: #ff6600;
-    border-bottom: 2px solid #ff6600;
+    color: #ffd700;
+    border-bottom: 2px solid #ffd700;
     padding-bottom: 3px;
 }
 
@@ -246,7 +246,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .hero-content h1 {
-    color: #ff6600;
+    color: #ffd700;
     font-size: 90px; /* Adjust font size as needed */
     letter-spacing: 40px;
     text-align: center;
@@ -331,7 +331,7 @@ body::-webkit-scrollbar-thumb:hover {
     animation: drawLine 0.5s ease forwards;
     height: 2px;
     margin: 10px 0;
-    background-color: #ff6600;
+    background-color: #ffd700;
   }
   
   .fade-in {
@@ -358,7 +358,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 span {
-    color: #ff6600;
+    color: #ffd700;
 }
 
 .explore {
@@ -450,7 +450,7 @@ span {
 .line {
     width: 300px;
     height: 1px;
-    background: #ff6600;
+    background: #ffd700;
     margin: 10px auto;
     border-radius: 5px;
     transform: rotate(90deg);
@@ -471,7 +471,7 @@ span {
 
 .operation-content {
     width: 100%;
-    max-width: 800px; /* Adjust as needed */
+    max-width: 1000px; /* Adjust as needed */
     padding: 150px 20px;
     color: whitesmoke;
 }
@@ -554,7 +554,7 @@ span {
 }
 
 .project:hover h2 span {
-    color: #ff6600;
+    color: #ffd700;
 }
 
 .highlight {
@@ -589,7 +589,7 @@ span {
     padding: 10px 20px;
     font-size: 1em;
     color: white;
-    background-color: #ff6600;
+    background-color: #ffd700;
     text-decoration: none;
     border: none;
     transition: background-color 0.3s;
@@ -724,7 +724,7 @@ span {
 }
 
 .contact-me span {
-    color: #ff6600;
+    color: #ffd700;
 }
 
 .contact-me {
@@ -750,7 +750,7 @@ span {
     width: 200px;
     height: auto;
     text-transform: uppercase;
-    background-color: #ff6600;
+    background-color: #ffd700;
     border: 1px solid;
     border-radius: 0;
     margin-bottom: 0;
@@ -766,7 +766,7 @@ span {
 }
 
 .contact-block span {
-    color: #ff6600;
+    color: #ffd700;
 }
 
 .social-media {
@@ -793,7 +793,7 @@ span {
 }
 
 .footer-line {
-    border-top: 1px solid #ff6600;
+    border-top: 1px solid #ffd700;
 }
 
 .footer-cap-content {
@@ -811,7 +811,7 @@ span {
 }
 
 .footer-cap-content span {
-    color: #ff6600;
+    color: #ffd700;
 }
 
 @media screen and (max-width: 800px) {
@@ -864,14 +864,6 @@ span {
         transition: max-height 0.3s ease;
         background-color: #F3FCF0;
         box-sizing: border-box;
-    }
-
-    .Ass {
-        background-color: red;
-    }
-
-    .Assh1 {
-        color: black;
     }
 
     .hero-section {
@@ -944,7 +936,7 @@ span {
     }
 
     .project h2 span {
-        color: #ff6600;
+        color: #ffd700;
     }
 
     .project p {
@@ -1055,9 +1047,9 @@ span {
     .question-button {
         font-size: 14px;
         padding: 10px 20px;
-        border: 2px solid #ff6600;
+        border: 2px solid #ffd700;
         background-color: transparent;
-        color: #ff6600;
+        color: #ffd700;
         border-radius: 25px;
         cursor: pointer;
         transition: background-color 0.3s, color 0.3s;
@@ -1065,7 +1057,7 @@ span {
     }
 
     .question-button:hover {
-        background-color: darkred;
+        background-color: orangered;
         color: white;
     }
 
