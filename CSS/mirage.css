@@ -44,7 +44,6 @@ body::-webkit-scrollbar-thumb:hover {
     min-height: 100%;
     opacity: 0.2;
     height: auto;
-    width: 100vw;
 }
 
 .navbar {
@@ -95,7 +94,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .brand-logo {
-    height: 60px;
+    height: 100px;
     margin-left: -100px;
 }
 

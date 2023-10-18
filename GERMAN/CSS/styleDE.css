@@ -823,7 +823,6 @@ span {
     .menu-bar {
         width: 100%; /* Make sure it takes up the full width */
         box-sizing: border-box; /* Include padding and border in element's total width and height */
-        padding: 10px; /* Add some padding for space around the items */
         overflow: hidden; /* Prevent content from overflowing */
         position: relative; /* Position relative for absolute positioning of child elements */
         text-align: center;
@@ -847,9 +846,11 @@ span {
     }
 
     .brand-logo {
+        width: 80px;
+        height: auto;
         display: flex;
         margin-left: auto;
-        background-image: url("../../Img/WALogo.png");
+        background-image: url("../../Img/WALogo-removebg-preview.png");
         margin-bottom: -2px;
     }
 
