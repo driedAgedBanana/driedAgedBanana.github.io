@@ -45,7 +45,7 @@ const randomMessages = [
     "Omdat jullie dat vragen - Swansea is niet hetzelfde als Porto",
     "Zij een scheppend vuur, niet een wolk van mist",
     "In niets gaat er boven een wapperende rood wit blauw in de wind.",
-    "Je denk te veel. Doe het",
+    "Je denk te veel. Doe het gewoon",
     "Zullen we voor de grap een dagje gaan uithangen?",
 ];
 
