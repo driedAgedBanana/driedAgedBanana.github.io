@@ -132,7 +132,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .brand-logo {
-    height: 60px;
+    height: 100px;
     margin-left: -100px;
 }
 
@@ -413,7 +413,7 @@ span {
 .aboutMe {
     width: 100%;
     height: 115vh;
-    background-image: url(../../Img/vietnamxdutch.png);
+    background-image: url(../../Img/vietnamxdutchflipped.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -426,7 +426,6 @@ span {
 }
 
 .explore-me {
-    width: 1200px;
     margin: 0 auto;
     color: whitesmoke;
     display: flex;
@@ -804,6 +803,10 @@ span {
     margin-left: auto;
     margin-right: auto;
     height: auto;
+}
+
+.phone-footer-banner {
+    display: none;
 }
 
 .footer-cap-content span {
