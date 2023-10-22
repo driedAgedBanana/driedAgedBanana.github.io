@@ -20,7 +20,7 @@ const randomMessages = [
     "hãy sải cánh và chuẩn bị cho một luồn sóng xung kích",
     "Con mập với đôi hàm có thể nghiền nát một tảng bê tông khổng lồ",
     "Kích hoạt Một vụ nổ với sức mạnh của 100 quả bom",
-    "Hơi thở băng giá lạnh lẽo như những cơn gió trên gác mái nhà bà ngoại",
+    "Hơi thở băng giá lạnh lẽo như những cơn gió trên gác mái nhà bà tôi",
     "Trong túi của nó chứa vô vàn những cơ hội khác nhau",
     "Tiếp thêm sức mạnh trong mỗi cú đá bằng những tia ánh sáng đầy hy vọng",
     "Đập tan mọi định kiến để đến gần hơn với giấc mơ của bạn",
