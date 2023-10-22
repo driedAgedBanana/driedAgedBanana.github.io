@@ -84,7 +84,7 @@ function typeText() {
                     setTimeout(function()
                     {
                         const DownArrow = document.createElement('img')
-                        DownArrow.src = '../../Img/arrowInverted.png';
+                        //DownArrow.src = '../../Img/arrowInverted.png';
                         DownArrow.style.opacity = 1;
                         typingTextElement.appendChild(DownArrow)
                     }, 500);
