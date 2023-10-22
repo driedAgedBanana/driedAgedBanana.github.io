@@ -16,7 +16,7 @@ const randomMessages = [
     "Bạn là một chú thỏ và tôi là một cỗ xe tăng",
     "Chúng ta là một cặp đôi bất khả chiến bại",
     "DenLiner - Nơi những điều diệu kỳ xảy ra",
-    "Một cú nhảy lên trời bỗng nhiên trở thành một cú đá",
+    "Một cú nhảy lên trời bỗng nhiên trở thành một cú đá đầy uy lực",
     "hãy sải cánh và chuẩn bị cho một luồn sóng xung kích",
     "Con mập với đôi hàm có thể nghiền nát một tảng bê tông khổng lồ",
     "Kích hoạt Một vụ nổ với sức mạnh của 100 quả bom",
