@@ -13,7 +13,7 @@ const randomMessages = [
     "Đây không phải là Rotterdam, tin tôi đi",
     "Nhắm mắt và để bạn là trung tâm của cả thế giới",
     "Bọ cánh cứng - Ong - Bọ cạp - Bọ xít",
-    "Bạn là một chú thỏ và tôi là một cỗ xe tăng",
+    "Một chú thỏ đáng yêu đang nằm ngủ trên nòng pháo cỗ xe tăng",
     "Chúng ta là một cặp đôi bất khả chiến bại",
     "DenLiner - Nơi những điều diệu kỳ xảy ra",
     "Một cú nhảy lên trời bỗng nhiên trở thành một cú đá đầy uy lực",
