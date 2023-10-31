@@ -677,7 +677,7 @@ span {
 
 .mirage-content {
     width: 100%;
-    max-width: 800px; /* Adjust as needed */
+    max-width: 1000px; /* Adjust as needed */
     padding: 150px 20px;
     color: whitesmoke;
 }
