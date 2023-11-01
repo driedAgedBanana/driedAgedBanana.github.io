@@ -39,7 +39,6 @@ const randomMessages = [
     "Zeronos - Ixa - Diend - Accel",
     "Birth - Meteor - Beast - Barron",
     "Mach - Specter - Brave",
-    "Er is zojuist een nieuwe geheugenkern ontgrendeld",
     "Nu zie je me, nu niet meer",
     "Koffie en sokken in de ochtend zijn redders in nood",
     "Omdat jullie dat vragen - Swansea is niet hetzelfde als Porto",
