@@ -33,6 +33,7 @@ const randomMessages = [
     "in its pouch contains infinite possibilities",
     "The rider kick increased the power by adding to brightness",
     "A rider kick to the sky turns to take off toward a dream",
+    "This is not a drill. It's a real thing",
     "Save th1s wrld",
     "I'm just a Kamen Rider passing through. Try to remember that",
     "Because Grandma said so",
@@ -40,7 +41,7 @@ const randomMessages = [
     "Now you see me, now you don't",
 ];
 
-const typingSpeed = 40 // Typing speed in milliseconds
+const typingSpeed = 35 // Typing speed in milliseconds
 
 // Get the element where the text will be typed
 const typingTextElement = document.getElementById("typing-text");

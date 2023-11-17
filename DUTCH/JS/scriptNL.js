@@ -23,6 +23,7 @@ const randomMessages = [
     "een sprong in de hemel wordt een Rider kick",
     "Spreid je vleugels en bereid je voor op een kracht",
     "Hoektanden die door beton heen kunnen vreten",
+    "dit is niet een test",
     "geheim materiaal - verborgen materiaal",
     "Ontploffingskracht van 100 bommen",
     "Felle adem zo koud als poolwinden",
@@ -36,7 +37,6 @@ const randomMessages = [
     "Koffie en sokken in de ochtend zijn redders in nood",
     "Zij een scheppend vuur, niet een wolk van mist",
     "In niets gaat er boven een wapperende rood wit blauw in de wind.",
-    "Je denk te veel. Doe het gewoon",
     "Zullen we voor de grap een dagje gaan uithangen?",
 ];
 
