@@ -30,7 +30,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .background {
-    width: 100vw;
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -38,12 +37,19 @@ body::-webkit-scrollbar-thumb:hover {
 
 .video-background {
     position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 116%;
+    object-fit: cover;
     opacity: 0.2;
 }
+
+#phone-video  {
+    display: none;
+}
+
 
 .navbar {
     position: sticky;
@@ -134,7 +140,7 @@ body::-webkit-scrollbar-thumb:hover {
     position: absolute;
     background-color: #EEE4E1; /* Background color of the dropdown */
     min-width: 160px; /* Adjust the width as needed */
-    min-height: 127px;
+    min-height: 87px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a shadow */
     z-index: 1;
     overflow: hidden;
@@ -247,10 +253,10 @@ body::-webkit-scrollbar-thumb:hover {
 
 .hero-content h1 {
     color: #ff6600;
-    font-size: 90px; /* Adjust font size as needed */
-    letter-spacing: 40px;
+    font-size: 100px; /* Adjust font size as needed */
+    letter-spacing: 20px;
     text-align: center;
-    margin-top: -60px;
+    margin-top: -100px;
     text-transform: uppercase;
 }
 
@@ -361,10 +367,29 @@ span {
     color: #ff6600;
 }
 
+#avans-link, #sint-link, #VU-link, #surf-link {
+    color: white;
+    text-decoration: none;
+}
+
+#sint-span {
+    color: #FF6600;
+}
+#avans-span {
+    color: #C7002B;
+}
+#VU-span {
+    color: #0089CF;
+}
+.text-span, #samer-link, #CEED-link {
+    color: #4169e1;
+    text-decoration: none;
+}
+
 .explore {
     width: 100%;
     height: 20vh;
-    background-image: url('../../Img/darkRotte.png');
+    background-image: url('../../Img/DetroitCityDark.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed; /* This enables the parallax effect */
@@ -395,7 +420,7 @@ span {
 .aboutMe {
     width: 100%;
     height: 115vh;
-    background-image: url(../../Img/rotterxValkdark.png);
+    background-image: url(../../Img/SURFowd2Dark.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -490,7 +515,7 @@ span {
 .projects {
     width: 100%;
     height: 110vh;
-    background-image: url(../../Img/crimeboarddark.png);
+    background-image: url(../../Img/DarkAward.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -557,6 +582,16 @@ span {
     color: #ff6600;
 }
 
+.project:hover h2 #kelly-span {
+    color: #FBFF55;
+}
+.project:hover h2 #maaike-span {
+    color: #94DC86;
+}
+.project:hover h2 #roos-span {
+    color: #A08EF2;
+}
+
 .highlight {
     position: relative;
     width: 100%;
@@ -567,6 +602,7 @@ span {
     color: whitesmoke;
     text-align: center;
     overflow: hidden;
+    background-image: url("../../Img/OWDStudentDark.png");
 }
 
 .highlight-content {
@@ -574,12 +610,12 @@ span {
 }
 
 .highlight-content h2 {
-    font-size: 5em;
+    font-size: 7em;
     margin-bottom: 10px;
 }
 
 .highlight-content p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-bottom: 30px;
 }
 
@@ -613,7 +649,7 @@ span {
 }
 
 .mirage-text {
-    letter-spacing: 20px;
+    letter-spacing: 10px;
 }
 
 
@@ -625,7 +661,7 @@ span {
 .mirage {
     width: 100%;
     height: 20vh;
-    background-image: url('../../Img/darkDarkRotterdam.png');
+    background-image: url('../../Img/MarkusDark.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed; /* This enables the parallax effect */
@@ -649,18 +685,6 @@ span {
 .mirage-content p {
     color: rgb(221, 221, 221);
 }
-
-.mirage-canva {
-    width: 100%;
-    height: 115vh;
-    background-image: url(../../Img/Policedonotcross.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-}
-
 .canva {
     width: 100%;
     padding: 150px;
@@ -746,6 +770,11 @@ span {
     margin-top: -165px;
 }
 
+#footer-links {
+    color: white;
+    text-decoration: none;
+}
+
 .question-button {
     width: 200px;
     height: auto;
@@ -815,6 +844,18 @@ span {
 }
 
 @media screen and (max-width: 800px) {
+    .video-background {
+        height: 108%;
+    }
+    
+    #SURF-pc-video {
+        display: none;
+    }
+
+    #phone-video {
+        display: block;
+
+    }
 
     .menu-bar {
         display: none;
@@ -888,7 +929,7 @@ span {
 
     .aboutMe {
         height: auto; /* Adjust the height as needed */
-        background-image: url("../../Img/RotterdamxValkphone.png");
+        background-image: url("../Img/SurfOWD28Dark.png");
     }
 
     .explore-me {
@@ -955,6 +996,10 @@ span {
         max-width: 100%;
         height: auto;
         filter: none;
+    }
+
+    .highlight {
+        background-image: url("../../Img/OWDStudentDarkPhone.png");
     }
 
     .highlight-content {

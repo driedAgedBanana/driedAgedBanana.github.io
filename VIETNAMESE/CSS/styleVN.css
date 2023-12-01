@@ -16,7 +16,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
     background-color: transparent;
-    border-radius: 6px;
+    border-radius: 1px;
 }
 
 body::-webkit-scrollbar-thumb:hover {
@@ -31,8 +31,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .background {
-    width: 100vw;
-    height: 1007px;
+    height: 1050px;
     background-image: url('../../Img/BatVdark.png');
     background-position: center;
     background-size: cover;
@@ -173,7 +172,6 @@ body::-webkit-scrollbar-thumb:hover {
     position: absolute;
     background-color: #EEE4E1; /* Background color of the dropdown */
     min-width: 160px; /* Adjust the width as needed */
-    min-height: 127px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a shadow */
     z-index: 1;
     overflow: hidden;
@@ -639,7 +637,7 @@ span {
     background-color: red;
 }
 
-.background-video {
+.SURF-wallpaper {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -649,11 +647,11 @@ span {
     height: auto;
     transform: translate(-50%, -50%);
     z-index: 0;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 .mirage-text {
-    letter-spacing: 20px;
+    letter-spacing: 10px;
 }
 
 
@@ -665,7 +663,7 @@ span {
 .mirage {
     width: 100%;
     height: 20vh;
-    background-image: url('../../Img/DarkERO.png');
+    background-image: url('../../Img/RK200Dark.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed; /* This enables the parallax effect */
@@ -736,7 +734,7 @@ span {
 }
 
 .footercaps {
-    max-width: 28vw;
+    max-width: 30vw;
     letter-spacing: 0.1vw;
     text-transform: uppercase;
     margin-bottom: 1vw;

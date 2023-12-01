@@ -36,10 +36,14 @@ const randomMessages = [
     "Không gì có thể ngăn cản chúng ta",
     "Hãy là ngọn lửa kiến tạo, đừng là đám khói mù mịt",
     "Sợ hãi là một rào chắn vô hình. Vượt qua nó và bạn sẽ thống trị tất cả",
-    "Nghĩ ngợi nhiều làm gì cho đau đầu. Làm đi",
+    "Một bể nước khổng lồ sẵn sàng nhấn chìm tất cả",
+    "Bức phá màn đêm với những màn bắn pháo hoa rực rỡ màu sắc",
+    "Hắn ta sẽ thống trị những cơn gió",
+    "Quyết định cuộc đại chiến như những nắm đấm thép",
+    "Những con đom đóm bay lởn vởn thắp sáng ngọn lửa của hy vọng trên khắp cánh đồng",
 ];
 
-const typingSpeed = 40 // Typing speed in milliseconds
+const typingSpeed = 33 // Typing speed in milliseconds
 
 // Get the element where the text will be typed
 const typingTextElement = document.getElementById("typing-text");

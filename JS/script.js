@@ -30,7 +30,6 @@ const randomMessages = [
     "secret material - hidden material",
     "Explosive power of 100 bombs",
     "Fierce breath as cold as arctic winds",
-    "in its pouch contains infinite possibilities",
     "The rider kick increased the power by adding to brightness",
     "A rider kick to the sky turns to take off toward a dream",
     "This is not a drill. It's a real thing",
@@ -39,9 +38,14 @@ const randomMessages = [
     "Because Grandma said so",
     "A new Memory Core has just unlocked",
     "Now you see me, now you don't",
+    "The elevation increases as the bullet is fired",
+    "With mighty horn-like pincers that flip others helpless",
+    "He wields the very winds as his command",
+    "Deciding the fate of a battle like a Valkyrie",
+    "Bursting sparks fly at full force",
 ];
 
-const typingSpeed = 35 // Typing speed in milliseconds
+const typingSpeed = 33 // Typing speed in milliseconds
 
 // Get the element where the text will be typed
 const typingTextElement = document.getElementById("typing-text");

@@ -30,7 +30,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .background {
-    width: 100vw;
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -38,12 +37,17 @@ body::-webkit-scrollbar-thumb:hover {
 
 .video-background {
     position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 122%;
+    object-fit: cover;
     opacity: 0.2;
-    height: auto;
+}
+
+#phone-video  {
+    display: none;
 }
 
 .navbar {
@@ -134,7 +138,7 @@ body::-webkit-scrollbar-thumb:hover {
     position: absolute;
     background-color: #fff; /* Background color of the dropdown */
     min-width: 160px; /* Adjust the width as needed */
-    min-height: 127px;
+    min-height: 87px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a shadow */
     z-index: 1;
     overflow: hidden;
@@ -225,13 +229,21 @@ body::-webkit-scrollbar-thumb:hover {
 
 .hero-section{
     width: 100%;
-    height: 91vh;
+    height: 93.7%;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
+/*.background {
+    width: 100vw;
+    height: 1000px;
+    background-image: url('../Img/DarkOWD1.png');
+    background-position: center;
+    background-size: cover;
+}*/
 
 .hero-section .logo{
     height: 150px;
@@ -245,10 +257,10 @@ body::-webkit-scrollbar-thumb:hover {
 
 .hero-content h1 {
     color: #4169e1;
-    font-size: 90px; /* Adjust font size as needed */
-    letter-spacing: 40px;
+    font-size: 100px; /* Adjust font size as needed */
+    letter-spacing: 20px;
     text-align: center;
-    margin-top: -60px;
+    margin-top: -100px;
     text-transform: uppercase;
 }
 
@@ -359,6 +371,25 @@ span {
     color: #4169e1;
 }
 
+#avans-link, #sint-link, #VU-link, #surf-link {
+    color: white;
+    text-decoration: none;
+}
+
+#sint-span {
+    color: #FF6600;
+}
+#avans-span {
+    color: #C7002B;
+}
+#VU-span {
+    color: #0089CF;
+}
+.text-span, #samer-link, #CEED-link {
+    color: #4169e1;
+    text-decoration: none;
+}
+
 .explore {
     width: 100%;
     height: 20vh;
@@ -374,7 +405,7 @@ span {
 
 .explore-content {
     width: 100%;
-    max-width: 800px; /* Adjust as needed */
+    max-width: 1000px; /* Adjust as needed */
     padding: 150px 20px;
     color: whitesmoke;
 }
@@ -393,7 +424,7 @@ span {
 .aboutMe {
     width: 100%;
     height: 115vh;
-    background-image: url(../Img/rotterxValkdark.png);
+    background-image: url(../Img/SURF3Dark.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -488,7 +519,7 @@ span {
 .projects {
     width: 100%;
     height: 110vh;
-    background-image: url(../Img/crimeboarddark.png);
+    background-image: url(../Img/DarkAward.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -545,7 +576,6 @@ span {
     color: white;
 }
 
-
 .project h2 span {
     color: white;
     transition: color 0.6s ease;
@@ -553,6 +583,16 @@ span {
 
 .project:hover h2 span {
     color: #4169e1;
+}
+
+.project:hover h2 #kelly-span {
+    color: #A08EF2;
+}
+.project:hover h2 #maaike-span {
+    color: #94DC86;
+}
+.project:hover h2 #roos-span {
+    color: #FBFF55;
 }
 
 .highlight {
@@ -565,6 +605,7 @@ span {
     color: whitesmoke;
     text-align: center;
     overflow: hidden;
+    background-image: url("../Img/OWDStudentDark.png");
 }
 
 .highlight-content {
@@ -597,21 +638,8 @@ span {
     background-color: darkred;
 }
 
-.background-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
-    z-index: 0;
-    opacity: 0.2;
-}
-
 .mirage-text {
-    letter-spacing: 20px;
+    letter-spacing: 10px;
 }
 
 
@@ -623,7 +651,7 @@ span {
 .mirage {
     width: 100%;
     height: 20vh;
-    background-image: url('../Img/darkDarkRotterdam.png');
+    background-image: url('../Img/darkOWD83.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed; /* This enables the parallax effect */
@@ -648,43 +676,16 @@ span {
     color: rgb(221, 221, 221);
 }
 
-.mirage-canva {
-    width: 100%;
-    height: 115vh;
-    background-image: url(../Img/Policedonotcross.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-}
-
-.canva {
-    width: 100%;
-    padding: 150px;
-    color: whitesmoke;
-    display: flex;
-    align-items: center;
-}
-
-.canva h3 {
-    font-size: 170%;
-}
-
-.mirage-cover {
-    width: 400px;
+.SURF-wallpaper {
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
     height: auto;
-}
-
-.canva .line {
-    margin-bottom: 50px;
-    margin-left: 120px;
-}
-
-.canva p {
-    color: rgb(221, 221, 221);
-    padding-right: 15px;
-    font-size: 20px;
+    transform: translate(-50%, -50%);
+    z-index: 0;
 }
 
 .footer {
@@ -719,6 +720,11 @@ span {
 
 .footer span {
     color: red;
+}
+
+#footer-links {
+    color: white;
+    text-decoration: none;
 }
 
 .contact-me span {
@@ -815,6 +821,19 @@ span {
 
 @media (max-width: 800px) {
 
+    .video-background {
+        height: 108%;
+    }
+    
+    #SURF-pc-video {
+        display: none;
+    }
+
+    #phone-video {
+        display: block;
+
+    }
+
     .menu-bar {
         display: none;
     }
@@ -867,14 +886,6 @@ span {
         box-sizing: border-box;
     }
 
-    .Ass {
-        background-color: red;
-    }
-
-    .Assh1 {
-        color: black;
-    }
-
     .hero-section {
         align-items: center;
         margin: 0 auto;
@@ -883,13 +894,13 @@ span {
 
     .hero-content h1 {
         letter-spacing: 10px;
-        font-size: 65px;
+        font-size: 90px;
         text-align: center;
     }
 
     .aboutMe {
         height: auto; /* Adjust the height as needed */
-        background-image: url("../Img/RotterdamxValkphone.png");
+        background-image: url("../Img/SurfOWD28Dark.png");
     }
 
     .explore-me {
@@ -916,6 +927,10 @@ span {
 
     .explore-me p {
         font-size: 16px; /* Adjust font size for mobile */
+    }
+
+    .explore-content h1, .operation-content h1, .mirage-content h1 {
+        font-size: 27px;
     }
 
     .projects {
@@ -958,6 +973,10 @@ span {
         filter: none;
     }
 
+    .highlight {
+        background-image: url("../Img/OWDStudentDarkPhone.png");
+    }
+
     .highlight-content {
         padding: 50px 20px; /* Adjust padding for mobile */
         text-align: center;
@@ -973,23 +992,6 @@ span {
 
     .highlight-content .btn {
         margin-top: 20px; /* Add some space between text and button */
-    }
-
-    .mirage-canva {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 80px 20px; /* Adjust padding for mobile */
-    }
-
-    .canva {
-        padding: 20px; /* Adjust padding for mobile */
-    }
-
-    .mirage-cover {
-        width: 100%; /* Make images responsive */
-        max-width: 100%;
     }
 
     .canva h3 {

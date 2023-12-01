@@ -30,7 +30,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .background {
-    width: 100vw;
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -38,11 +37,17 @@ body::-webkit-scrollbar-thumb:hover {
 
 .video-background {
     position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 108%;
+    object-fit: cover;
     opacity: 0.2;
+}
+
+#phone-video  {
+    display: none;
 }
 
 .navbar {
@@ -134,7 +139,7 @@ body::-webkit-scrollbar-thumb:hover {
     position: absolute;
     background-color: #EEE4E1; /* Background color of the dropdown */
     min-width: 160px; /* Adjust the width as needed */
-    min-height: 127px;
+    min-height: 87px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a shadow */
     z-index: 1;
     overflow: hidden;
@@ -361,6 +366,25 @@ span {
     color: #ffd700;
 }
 
+#avans-link, #sint-link, #VU-link, #surf-link {
+    color: white;
+    text-decoration: none;
+}
+
+#sint-span {
+    color: #FF6600;
+}
+#avans-span {
+    color: #C7002B;
+}
+#VU-span {
+    color: #0089CF;
+}
+.text-span, #samer-link, #CEED-link {
+    color: #4169e1;
+    text-decoration: none;
+}
+
 .explore {
     width: 100%;
     height: 20vh;
@@ -376,7 +400,7 @@ span {
 
 .explore-content {
     width: 100%;
-    max-width: 800px; /* Adjust as needed */
+    max-width: 1000px; /* Adjust as needed */
     padding: 150px 20px;
     color: whitesmoke;
 }
@@ -395,7 +419,7 @@ span {
 .aboutMe {
     width: 100%;
     height: 115vh;
-    background-image: url(../../Img/rotterxValkdark.png);
+    background-image: url(../../Img/DarkOWD1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -459,7 +483,7 @@ span {
 .operation {
     width: 100%;
     height: 20vh;
-    background-image: url('../../Img/neverwalkalonedark.png');
+    background-image: url('../../Img/KaraAliceDark.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed; /* This enables the parallax effect */
@@ -490,7 +514,7 @@ span {
 .projects {
     width: 100%;
     height: 110vh;
-    background-image: url(../../Img/crimeboarddark.png);
+    background-image: url(../../Img/DarkAward.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -557,6 +581,16 @@ span {
     color: #ffd700;
 }
 
+.project:hover h2 #kelly-span {
+    color: #A08EF2;
+}
+.project:hover h2 #maaike-span {
+    color: #94DC86;
+}
+.project:hover h2 #roos-span {
+    color: #FBFF55;
+}
+
 .highlight {
     position: relative;
     width: 100%;
@@ -567,6 +601,7 @@ span {
     color: whitesmoke;
     text-align: center;
     overflow: hidden;
+    background-image: url("../../Img/OWDStudentDark.png");
 }
 
 .highlight-content {
@@ -625,7 +660,7 @@ span {
 .mirage {
     width: 100%;
     height: 20vh;
-    background-image: url('../../Img/DarkDam.png');
+    background-image: url('../../Img/darkKaraDetroit.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed; /* This enables the parallax effect */
@@ -717,6 +752,11 @@ span {
     width: 300px;
     height: auto;
     margin-left: -50px;
+}
+
+#footer-links {
+    color: white;
+    text-decoration: none;
 }
 
 .footer span {
@@ -880,7 +920,7 @@ span {
 
     .aboutMe {
         height: auto; /* Adjust the height as needed */
-        background-image: url("../../Img/RotterdamxValkphone.png");
+        background-image: url("../../Img/darkOWD83Cropped.png");
     }
 
     .explore-me {
@@ -947,6 +987,10 @@ span {
         max-width: 100%;
         height: auto;
         filter: none;
+    }
+
+    .highlight {
+        background-image: url("../../Img/OWDStudentDarkPhone.png");
     }
 
     .highlight-content {

@@ -36,11 +36,18 @@ const randomMessages = [
     "Nu zie je me, nu niet meer",
     "Koffie en sokken in de ochtend zijn redders in nood",
     "Zij een scheppend vuur, niet een wolk van mist",
-    "In niets gaat er boven een wapperende rood wit blauw in de wind.",
+    "In niets gaat er boven een wapperende rood wit blauw in de wind",
     "Zullen we voor de grap een dagje gaan uithangen?",
+    "Genoeg kracht om een berg te vernietigen",
+    "Oneindige stekels schieten op de vijand af",
+    "Priknaald met ongelooflijke kracht",
+    "Voor haar ogen is niets onbekend",
+    "Het lot van een gevecht bepalen als een Valkyrie",
+    "Uitbarstende vonken vliegen met volle kracht naar de donkere afdaling",
+    "Kèk toch hoe stèrk",
 ];
 
-const typingSpeed = 45 // Typing speed in milliseconds
+const typingSpeed = 34 // Typing speed in milliseconds
 
 // Get the element where the text will be typed
 const typingTextElement = document.getElementById("typing-text");
