@@ -23,7 +23,6 @@ const randomMessages = [
     "You are the Rabbit and I am the Tank",
     "We are the best",
     "DenLiner - Where magic happen",
-    "Exceed Charge",
     "a jump to the sky turns into a rider kick",
     "spread your wings and prepare for a force",
     "fang that can chomp through concrete",
