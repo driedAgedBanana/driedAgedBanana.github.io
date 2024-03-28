@@ -815,6 +815,10 @@ span {
     height: auto;
 }
 
+.phone-footer-banner {
+    display: none;
+}
+
 .footer-cap-content span {
     color: #4169e1;
 }
@@ -1073,10 +1077,15 @@ span {
     }
 
     .footer-banner {
+        display: none;
+    }
+
+    .phone-footer-banner{
+        display: flex;
         width: 100%;
         height: auto;
         margin-top: 10px; /* Adjust the margin as needed */
-        background-image: url("../Img/reiwabanner.png");
+        background-image: url("../Img/SecondSecondFive.png");
     }
 
     .footer-line {

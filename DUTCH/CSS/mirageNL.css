@@ -839,6 +839,10 @@ span {
     height: auto;
 }
 
+.phone-footer-banner {
+    display: none;
+}
+
 .footer-cap-content span {
     color: #ff6600;
 }
@@ -929,7 +933,7 @@ span {
 
     .aboutMe {
         height: auto; /* Adjust the height as needed */
-        background-image: url("../Img/SurfOWD28Dark.png");
+        background-image: url("../../Img/SurfOWD28Dark.png");
     }
 
     .explore-me {
@@ -1115,10 +1119,15 @@ span {
     }
 
     .footer-banner {
+        display: none;
+    }
+
+    .phone-footer-banner{
+        display: flex;
         width: 100%;
         height: auto;
         margin-top: 10px; /* Adjust the margin as needed */
-        background-image: url("../../Img/reiwabanner.png");
+        background-image: url("../../Img/SecondSecondFive.png");
     }
 
     .footer-line {
