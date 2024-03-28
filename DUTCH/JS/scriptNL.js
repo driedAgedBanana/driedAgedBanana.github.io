@@ -45,6 +45,7 @@ const randomMessages = [
     "Het lot van een gevecht bepalen als een Valkyrie",
     "Uitbarstende vonken vliegen met volle kracht naar de donkere afdaling",
     "Kèk toch hoe stèrk",
+    "Je bent schattig, mag ik jouw hart mee naar huis nemen?",
 ];
 
 const typingSpeed = 34 // Typing speed in milliseconds

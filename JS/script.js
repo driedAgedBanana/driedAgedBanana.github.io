@@ -42,6 +42,7 @@ const randomMessages = [
     "He wields the very winds as his command",
     "Deciding the fate of a battle like a Valkyrie",
     "Bursting sparks fly at full force",
+    "You are cute. Can I steal your heart?",
 ];
 
 const typingSpeed = 33 // Typing speed in milliseconds
