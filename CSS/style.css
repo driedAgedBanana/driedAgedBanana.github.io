@@ -897,6 +897,14 @@ span {
         color: black;
     }
 
+    .hero-section .sub-heading {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 28px;
+        font-weight: 200;
+        height: 150px;
+    }
+
     .aboutMe {
         height: auto;
         background-image: url("../Img/darkfaiz.png");
