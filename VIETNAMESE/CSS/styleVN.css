@@ -436,8 +436,7 @@ span {
 
 .explore-me h1 {
     font-size: 165%;
-    display: block;
-    margin-right: 0;
+    margin-right: -125px;
     margin-left: 150px;
 }
 
@@ -450,8 +449,8 @@ span {
 
 
 .explore-me .line {
-    margin-bottom: 50px;
-    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-left: 269px;
 }
 
 .explore-me p {
@@ -485,7 +484,7 @@ span {
 }
 
 .line {
-    width: 300px;
+    width: 500px;
     height: 1px;
     background: #ffd700;
     margin: 10px auto;
@@ -820,7 +819,7 @@ span {
     /* Adjustments to Navigation Bar Styles */
 
     .background {
-        background-image: url("../../Img/darkChief.png");
+        background-image: url("../../Img/DarkBasim_BG.png");
     }
     .menu-bar {
         width: 100%; /* Make sure it takes up the full width */
@@ -899,7 +898,7 @@ span {
 
     .aboutMe {
         height: auto;
-        background-image: url("../../Img/darkfaiz.png");
+        background-image: url("../../Img/MightyActionX_BlackBG.png");
     }
 
     .explore-me {
