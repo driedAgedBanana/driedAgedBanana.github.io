@@ -6,7 +6,7 @@ const randomMessages = [
     "Không phiền nếu tôi đo đếm tội lỗi của bạn chứ?",
     "Thật tốt khi được gặp lại mọi người",
     "Chăm sóc cho các bạn, cũng là một phần công việc của tôi",
-    "Quy luật chiến thắng đã được xác định",
+    "Quy luật chiến thắng đã được xác định!",
     "Chúng ta cùng nhau lái một vòng chứ?",
     "Được. Đến giờ biểu diễn rồi!",
     "Bạn - tôi. Cặp đôi hoàn hảo",
@@ -44,7 +44,7 @@ const randomMessages = [
     "Bạn dễ thương đấy. Không phiền nếu tôi ăn cắp trái tim của bạn chứ?"
 ];
 
-const typingSpeed = 33 // Typing speed in milliseconds
+const typingSpeed = 32 // Typing speed in milliseconds
 
 // Get the element where the text will be typed
 const typingTextElement = document.getElementById("typing-text");
