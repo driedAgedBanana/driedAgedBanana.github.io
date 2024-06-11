@@ -829,7 +829,7 @@ span {
     /* Adjustments to Navigation Bar Styles */
 
     .background {
-        background-image: url("../Img/darkMira.png");
+        background-image: url("../Img/DarkMiraBG.png");
     }
     .menu-bar {
         width: 100%; /* Make sure it takes up the full width */
@@ -990,6 +990,10 @@ span {
         max-width: 100%;
         height: auto;
         filter: none;
+    }
+
+    .mirage {
+        background-image: url("../Img/ConnorDarkPhoneSide.png");
     }
 
     .highlight-content {
