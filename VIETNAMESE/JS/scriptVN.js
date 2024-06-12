@@ -41,7 +41,9 @@ const randomMessages = [
     "Hắn ta sẽ thống trị những cơn gió",
     "Quyết định cuộc đại chiến như những nắm đấm thép",
     "Những con đom đóm bay lởn vởn thắp sáng ngọn lửa của hy vọng trên khắp cánh đồng",
-    "Bạn dễ thương đấy. Không phiền nếu tôi ăn cắp trái tim của bạn chứ?"
+    "Bạn dễ thương đấy. Không phiền nếu tôi ăn cắp trái tim của bạn chứ?",
+    "Mỗi lần ở bên bạn, tôi như được tái sinh",
+    "Vượt qua mọi rào cản với một MOTION còn nhanh hơn cả ánh sáng",
 ];
 
 const typingSpeed = 32 // Typing speed in milliseconds

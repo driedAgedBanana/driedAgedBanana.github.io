@@ -43,6 +43,8 @@ const randomMessages = [
     "Deciding the fate of a battle like a Valkyrie",
     "Bursting sparks fly at full force",
     "You are cute. Can I steal your heart?",
+    "When I fight next to you, I feel like reborn",
+    "With a MOTION that is faster than light",
 ];
 
 const typingSpeed = 33 // Typing speed in milliseconds

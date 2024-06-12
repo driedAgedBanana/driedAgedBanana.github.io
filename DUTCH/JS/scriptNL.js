@@ -46,6 +46,8 @@ const randomMessages = [
     "Uitbarstende vonken vliegen met volle kracht naar de donkere afdaling",
     "Kèk toch hoe stèrk",
     "Je bent schattig, mag ik jouw hart mee naar huis nemen?",
+    "Naast jou word ik elke keer als ik vecht herboren",
+    "Met een MOTION die sneller is dan het licht",
 ];
 
 const typingSpeed = 34 // Typing speed in milliseconds
