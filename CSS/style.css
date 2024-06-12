@@ -941,13 +941,17 @@ span {
         text-align: center;
     }
 
+    .explore-me .line {
+        margin-bottom: 25px;
+        margin-left: 100px;
+    }
+
     .line {
         margin: 50px auto;
         display: block;
         width: 150px;
         transform: none;
     }
-
     .operation {
         background-image: url("../Img/Heavyraindark.png");
     }
