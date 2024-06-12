@@ -32,7 +32,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .background {
     height: 1050px;
-    background-image: url('../../Img/SteelWaveDarkBG.png');
+    background-image: url('../../Img/SteelWaveDarkBG_compressed.png');
     background-position: center;
     background-size: cover;
 }
