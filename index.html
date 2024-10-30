@@ -1,158 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./Img/WA.jpg">
     <meta charset="UTF-8">
-    <title>WyzardArk</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Porto</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" href="./img/WA.jpg">
 </head>
-<body class="background" onload="typeText()">
-
-    <nav class="navbar">
-        <div class="nav">
-            <a href="./index.html">
-                <img src="Img/WALogo-removebg-preview.png" class="brand-logo" alt="">
-            </a>
-            <div class="nav-items">
-                <ul class="menu-bar">
-                    <li><a href="#Aboutme">About</a></li>
-                    <li><a href="#project-highlight">Projects</a></li>
-                    <li><a href="mailto:cao.bon2805@gmail.com" class="contact-button">Contact</a></li>
-                </ul>
-
-                <div class="language-selector" id="languageSelector">
-                    <a href="#" class="language-link" id="uk-link">
-                        <div class="flag-icon uk-flag"></div>
-                        <img src="Img/Union_Jack.png" alt="">
-                    </a>
-                    <div class="language-dropdown-content">
-                        <a href="./DUTCH/indexNL.html" id="nl-link">
-                            <div class="flag-icon nl-flag"></div>
-                            Nederlands
-                        </a>
-                        <a href="./VIETNAMESE/indexVN.html" id="vn-link">
-                            <div class="flag-icon vn-flag"></div>
-                            Tiếng Việt
-                        </a>
-                    </div>
-                </div>
-
-            </div>
+<body>
+    <!-- Intro Section -->
+    <div id="loading-screen">
+        <div id="quote-container">
+            <span id="quote"></span>
         </div>
-    </nav>
-<!-- hero section -->
-<header class="hero-section">
-        <p class="sub-heading" style="color: white;" id="typing-text"></p>
-</header>
-
-<header class="explore" id="explore">
-    <div class="explore-content">
-        <h1>AN <span>ILLUSION</span> UNDER THE  <span>HEAVY RAIN</span></h1>
     </div>
-</header>
-
-
-<!-- Add the "fade-in" class to the elements you want to animate -->
-    <section class="aboutMe" id="Aboutme">
-        <div class="explore-me fade-in">
-            <div>
-                <h1>HI THERE! MY NAME IS <span>BON</span></h1>
-                <img class="myIMG" src="Img/BonImageCompressed.jpg" alt="">
+    <section class="intro" id="intro">
+        <header>
+            <div class="logo">
+                Wyzard's<span class="ark">Ark</span>
             </div>
-            <div class="line"></div>
-            <p>In just under a decade, I've traversed continents - from <span>Vietnam</span> to the <span class="sint-span">Netherlands</span> in 2016. <br>Now 18, I'm immersed in <a id="sd-link" href="https://www.sintlucas.nl/opleiding/software-development/"><span>Software Development</span></a> studies at <a id="sint-link" href="https://www.sintlucas.nl/"><span class="sint-span">SintLucas</span></a>. <br> Here's to the next exciting chapter!</p>
+            <nav class="menu">
+                <!-- Burger Menu Toggle -->
+                <div class="menu-toggle" id="nav-toggle" aria-haspopup="true" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="nav-list" id="nav-list">
+                    <li><a href="#aboutMeSection">About Me</a></li>
+                    <li><a href="#projectSection">Projects</a></li>
+                    <li><a href="mailto: cao.bon2805@gmail.com" class="contact-button">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="language-menu">
+                <!-- Language Toggle (Union Jack Emoji) -->
+                <div class="language-toggle" id="lang-toggle" aria-haspopup="true" aria-expanded="false">
+                    🇬🇧
+                </div>
+                <!-- Language Options -->
+                <ul class="language-list" id="language-list">
+                    <li><a href="./NEDERLANDS/indexNL.html">Nederlands 🇳🇱</a></li>
+                    <li><a href="./VIETNAMESE/indexVIE.html">Tiếng Việt 🇻🇳</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+
+        <main class="intro-content">
+            <div class="design-caption">
+                <h3>Design by Bon Cao, a personal Portfolio</h3>
+            </div>
+            <div class="main-caption">
+                <h1>
+                    <span class="new-look">New <span class="highlight">Look</span></span>,<br>
+                    <span class="same-core">Same <span class="highlight">Core</span></span>
+                </h1>
+                <h2>Welcome (back) to <span class="highlight">Project Porto</span>, ver 1.5</h2>
+            </div>
+        </main>
+        <div class="arrow-container">
+            <img src="./img/DownArrow.png" alt="Scroll Down Arrow">
         </div>
     </section>
 
-
-<header class="operation" id="operation">
-    <div class="operation-content">
-        <h1>ONLY FOR THE <span>BEST</span></h1>
+    <!-- About Me Section -->
+<section class="aboutMe">
+    <!-- Moving Quote Section -->
+    <div class="aboutMe-scrolling-title" id="scrolling-title-mobile">
+        <h2>Something About Me - Something About Me - Something About Me - Something About Me - Something About Me</h2>
     </div>
-</header>
-
-<section class="projects" id="project-highlight">
-    <div class="projects-content fade-in">
-        <div class="project">
-            <a class="project-links" href="https://www.behance.net/gallery/200778233/My-First-VR-Project?">
-            <h2>MY FIRST <span>VR</span> PROJECT</h2>
-            <p>As the name said. My first VR project ever</p>
-            <img src="Img/HaroldVR.png" alt="Project 1" class="project-image">
-            </a>
+    
+    <div class="about-container" id="aboutMyself">
+        <div class="about-image">
+            <img src="./img/BonImageCompressed.jpg" alt="About Me Image">
         </div>
-
-        <div class="project">
-            <a class="project-links" href="https://www.behance.net/gallery/180998275/Project-Rigidbirdy?">
-            <h2><span>хлопающая птица</span></h2>
-            <p>A very funny and family friendly хлопающая птица game</p>
-            <img src="./Img/BirdExaid-removebg-preview.png" alt="Project 2" class="project-image">
-            </a>
+        <div class="about-text">
+            <p> Hi there! My name is Bon. I'm a 3th year student at the <span class="edublock-3">SiNTLUCAS</span> in Eindhoven at which I'm following a Game Development education.
+                On this portoflio website I'm hoping to teach you more about me and the work i've created!</p>
         </div>
-
-        <div class="project">
-            <a class="links" href="https://www.behance.net/gallery/194941511/Cartographer-Project-Seventeen">
-            <h2><span>Cartographer</span>: Project <span>Seventeen</span></h2>
-            <p>The first photo book, made by myself, for everyone</p>
-            <img src="Img/Project 17 PNG FINALE.jpg" alt="Project 3" class="project-image">
-            </a>
-        </div>
-
     </div>
-
 </section>
 
-<header class="mirage" id="mirage">
-    <div class="mirage-content">
-        <h1>IN ITS BRAIN CONTAINS INFINITE <span>POSSIBILITIES</span></h1>
-    </div>
-</header>
-
-    <section class="highlight">
-        <div class="highlight-content">
-            <h2 class="mirage-text"><span>SURF Education days</span></h2>
-            <p>GET <span>INSPIRED</span> AND SHAPE THE <span>FUTURE</span> OF <span>EDUCATION</span></p>
-            <a href="./ENGLISH/mirage.html"><button class="btn">Read More</button></a>
+<!-- About Me Education Section -->
+<section class="aboutMe-education" id="aboutMeSection">
+    <h2>Education</h2>
+    <div class="education-container">
+        <!-- Education Block 1 -->
+        <div class="education-block">
+            <img src="./img/StedelijkCollegeEindhoven.png" class="school-logo" alt="Stedelijk College Logo">
+            <a class="schoolText-link" href="https://www.stedelijkcollege.nl/oude-bossche-baan/eerste-opvang-anders-taligen/first-admission-for-non-native-speakers-en/" target="_blank"><h3><span class="edublock-1">FAFN-NS</span> (2017-2018)</h3></a>
+            <p>First Admission For Non-Native Speakers</p>
         </div>
-        <img class="SURF-wallpaper" src="Img/DarkSurfWallpaper.png" alt="">
-        <!--<video autoplay muted loop class="background-video" id="background-video">
-            <source src="./Video/Day1SURFedited.mp4" type="video/mp4">
-            Your browser does not support the video tag :(
-        </video>-->
-    </section>
-
-
-<footer class="footer">
-    <div class="footermainrow">
-        <img class= "footer-logo" src="./Img/WALogo.png" alt="">
-        <p class="footer-title">Wyzard's<span>Ark</span> 2019 - 2024</p>
+        <!-- Education Block 2 -->
+        <div class="education-block" id="edublock-2">
+            <img src="./img/logo_Sondervick_college_fc_Horizontaal.png" class="school-logo" alt="Sondervick College Logo">
+            <a class="schoolText-link" href="https://sondervick.nl/vmbo/de-opleiding/produceren-installeren-en-energie/" target="_blank"><h3><span class="edublock-2">Pre-Vocational Secondary Education (PVSE)</span> (2018-2022)</h3></a>
+            <p>Produce, Install and Energy</p>
+        </div>
+        <!-- Education Block 3 -->
+        <div class="education-block" id="edublock-3">
+            <img src="./img/sint-lucas.webp" class="school-logo" alt="SiNTLUCAS-logo">
+            <a class="schoolText-link" href="https://www.sintlucas.nl/opleiding/software-development" target="_blank"><h3><span class="edublock-3">Secondary Vocational Education (SVE)</span> (2022-2026)</h3></a>
+            <p>Software Development</p>
+        </div>
     </div>
+</section>
 
-    <div class="contact-me">
-        <div class="footercaps">Want to get to know more about me? Just click on the <span>CV</span> button below</div>
-        <a href="./BonCVRenewWText.pdf" download><button class="question-button">Curriculum Vitae</button></a>
+<!-- Skills Section -->
+<section class="aboutMe-skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <!-- Skill Block 1: Unity -->
+        <div class="skill-block">
+            <a href="https://unity.com/" target="_blank"><img src="./img/Unity.png" class="skill-icon" alt="Unity Icon"></a>
+            <h3 class="unity-text">Unity</h3>
+        </div>
+        <!-- Skill Block 2: C# -->
+        <div class="skill-block">
+            <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank"><img src="./img/c-sharp.png" class="skill-icon" alt="C# Icon"></a>
+            <h3 class="csharp-text">C#</h3>
+        </div>
+        <!-- Skill Block 3: HTML -->
+        <div class="skill-block">
+            <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"><img src="./img/HTML.png" class="skill-icon grayscale" alt="HTML Icon"></a>
+            <h3 class="html-text">HTML</h3>
+        </div>
+        <!-- Skill Block 4: CSS -->
+        <div class="skill-block">
+            <a href="https://en.wikipedia.org/wiki/CSS" target="_blank"><img src="./img/css-icon.png" class="skill-icon grayscale" alt="CSS Icon"></a>
+            <h3 class="css-text">CSS</h3>
+        </div>
+        <!-- Skill Block 5: PremierPro -->
+        <div class="skill-block">
+            <a href="https://www.adobe.com/products/premiere.html" target="_blank"><img src="./img/Adobe_Premiere_Pro_CC_icon.svg.png" class="skill-icon grayscale" alt="PremierPro Icon"></a>
+            <h3 class="premierpro-text">Adobe Premier Pro</h3>
+        </div>
+    </div>
+</section>
 
-            <div class="social-media">Follow me on <span> social media</span>
-                <a class="instagram" href="https://www.instagram.com/koreaanse_bladman/" target="_blank">
-                    <img src="Img/instawhite.png" id="instagram" alt="">
-                </a>
 
-                <a href="https://www.linkedin.com/in/bon-cao-332283220/" target="_blank">
-                    <img src="Img/whiteLinkedin.png" id="linkedin" alt="">
-                </a>
+
+<!-- Project Section -->
+<section class="projects" id="projectSection">
+    <div class="scrolling-title">
+        <h2>
+            Only For The <span id="BestRed">Best</span> - Only For The 
+            <span id="BestRed">Best</span> - Only For The 
+            <span id="BestRed">Best</span> - Only For The 
+            <span id="BestRed">Best</span> - Only For The 
+            <span id="BestRed">Best</span>
+        </h2>
+    </div> <!-- Closing scrolling-title -->
+
+    <div class="scrolling-container">
+        <div class="grid-container">
+            <!-- Project 1 -->
+            <div class="grid-item large" 
+                data-title="Escape the Maze: Codename Hyphen" 
+                data-description="The original name of this project was <b>Project Show Yourself</b>, but I renamed it <i>Project Hyphen</i> because I liked it better. It was the first project I was assigned during my internship. The goal of the project was to test my programming and game development skills. In <i>Show Yourself</i>, I had to create a game with a maze containing moving walls, with a deadline of around 3 weeks. During those 3 weeks, I created a game that incorporated many ideas and inspirations from other well-known games."
+                data-banner="./img/CodenameHyphen.png" 
+                data-images="./img/CodeNameHyphen/HyphenMenu.PNG, ./img/CodeNameHyphen/Tutorial1.PNG, ./img/CodeNameHyphen/Tutorial2.PNG, ./img/CodeNameHyphen/TutorialInteractable.PNG, ./img/CodeNameHyphen/Gameplay1.PNG, ./img/CodeNameHyphen/LightShowcase.PNG" 
+                data-videos=""
+                data-additional-text="To learn more about Project Hyphen and its technical design, <a href='https://github.com/driedAgedBanana/ProjectHyphen/tree/main' target='_blank'>visit the project's GitHub page</a>. You’ll find a detailed game document available (currently in Dutch, with an English version coming soon).">
+                <img src="./img/LogoHyphenBannerBig.png" alt="Project Hyphen">
+                <div class="title">Escape the Maze: Codename Hyphen</div>
             </div>
 
-    </div>
+            <!-- Project 2 -->
+            <div class="grid-item small" 
+                data-title="QUBE: Project Kuijpers" 
+                data-description="<b>Project QUBE (codename: Kuijpers)</b> is an <i>AR initiative</i> designed to help SiNTLUCAS students understand volume and perimeter concepts in math. Created on April 17, 2024, the project has not been fully launched, but it was successfully showcased at the <b>Fontys XR</b> event on June 21, 2024, despite being unfinished. As the first student to lay the groundwork for this project, I placed the initial stepping stone, and future students will continue to work on and improve it. 
+                                Once completed, the project will be implemented as part of the school's program to aid students in mastering math concepts using AR, projecting cubes and 3D shapes into physical spaces for interactive learning." 
+                data-banner="./img/AR.webp" 
+                data-images="./img/QUBE_1.jpg, ./img/QUBE_2.jpg, ./img/QUBE_3.jpg, ./img/QUBE_4.jpg, ./img/Media (1).jpg, ./img/Media (2).jpg,
+                            ./img/Media (3).jpg, ./img/Media (4).jpg, ./img/Media (5).jpg, ./img/Media (6).jpg, ./img/Media (7).jpg, ./img/Media (8).jpg, ./img/Media (9).jpg, ./img/Media (10).jpg, ./img/Media (11).jpg, ./img/Media (12).jpg, ./img/Media (13).jpg, ./img/Media (14).jpg" 
+                data-videos=""
+                data-additional-text="The Fontys XR event is organized by Fontys Eindhoven and aims to bring together students from different schools to conduct workshops on their XR/AR-related projects. These projects may range from games designed for people with disabilities, health improvement through gamified exercises, or training-focused applications. The event not only helps students refine their projects with feedback from teachers and peers but also allows educators to gain new insights into virtual reality and explore how it can be integrated into training programs.">
+                <img src="./img/LogoQUBESmall.png" alt="Project Kuijpers">
+                <div class="title">QUBE: Project Kuijpers</div>
+            </div>
 
-    <div class="footer-line">
-        <div class="footer-cap">
-            <img class="footer-banner" src="./Img/Fourze%20icons%20(i%20tried).png" alt="">
-            <img class="phone-footer-banner" src="./Img/FirstFiveCroppedNew.png" alt="">
+            <!-- Project 3 -->
+            <div class="grid-item small"
+                data-title="VR Shooter" 
+                data-description="The VR shooter was my first project in virtual reality. Although simple, I learned a lot about developing a VR game. I also had many enjoyable experiences while creating the game and using the <i>Quest 2 VR</i> headset." 
+                data-banner="./img/VRShoot.PNG" 
+                data-videos="./img/1-my-first-vr-project-720.mp4, ./img/5-my-first-vr-project-646.mp4"
+                data-additional-text="Inspired by Doom, you, the player, are equipped with two weapons: a Glock and an AUG. You're placed in a battlefield with tall walls and countless enemies. While they may not be smart, their sheer numbers make them a threat, as they can flank you if you're not careful. The goal is simple: see who can eliminate the most enemies.">
+                <img src="./img/HaroldVR.png" alt="Project 3">
+                <div class="title">VR Shooter</div> <!-- Hidden by default, appears on hover -->
+            </div>
+
+            <!-- Project 4 -->
+            <div class="grid-item large"
+                data-title="Project Porto 1" 
+                data-description="Porto 1 is my personal website project, part of my second semester assignment in year two. The site’s purpose is to introduce myself and showcase the projects I’ve worked on. Although I’m not a web developer, I aimed to make the site visually appealing and optimized for fast load times and smooth user experience.
+                <br><br>A standout feature of Porto 1 is its <b>mobile layout</b>, recognizing that most people access websites on their phones rather than laptops or desktops. I dedicated time to developing a mobile-friendly layout. Additionally, to reach a wider audience, I created a popup menu that links to <i>Dutch</i> and <i>Vietnamese</i> versions of the homepage. Since not everyone is fluent in English, I wanted to ensure that language barriers wouldn’t disrupt the user experience, so I added these two languages for accessibility." 
+                data-banner="./img/PortoBannerLogoSmallPopup.png" 
+                data-images="./img/Porto1/Porto1_1.PNG, ./img/Porto1/Porto1_2.PNG, ./img/Porto1/Porto1_3.PNG, ./img/Porto1/Porto1_4.PNG, ./img/Porto1/Porto1_5.PNG,
+                ./img/Porto1/Porto1_6.PNG, ./img/Porto1/Porto1_7.PNG, ./img/Porto1/Porto1_8.PNG, ./img/Porto1/Porto1_9.PNG, ./img/Porto1/Porto1_10.PNG,./img/Porto1/Porto1_11.PNG, ./img/Porto1/Porto1_12.PNG, ./img/Porto1/PortoPhone_1.PNG, ./img/Porto1/PortoPhone_2.PNG,
+                ./img/Porto1/PortoPhone_3.PNG, ./img/Porto1/PortoPhone_4.PNG, ./img/Porto1/PortoPhone_5.PNG, ./img/Porto1/PortoPhone_6.PNG, ./img/Porto1/PortoPhone_7.PNG, ./img/Porto1/PortoPhone_8.PNG,
+                ./img/Porto1/PortoPhone_9.PNG, ./img/Porto1/PortoPhone_10.PNG, ./img/Porto1/PortoPhone_11.PNG, ./img/Porto1/PortoPhone_12.PNG" 
+                data-additional-text="Over time, Porto 1 started to reveal its weaknesses. It lacked sufficient information about me, and updating new projects became increasingly difficult as the codebase grew too complex to modify easily. This complexity forced me to only select my top three projects to showcase on the site. Additionally, the layout of the website never fully satisfied me, leading to the decision to replace Porto 1 with the current project you are viewing now: <b>Porto 1.5</b>.
+                <br><br>
+                Building on the legacy of Porto 1, Porto 1.5 retains its core values but brings significant improvements. It includes more comprehensive information about me and offers the flexibility to showcase more potential projects in the future.">
+                <img src="./img/LogoPortoBannerBig.png" alt="Project 4">
+                <div class="title">Project Porto 1</div> <!-- Hidden by default, appears on hover -->
+            </div>
+
+            <!-- Project 5 -->
+            <div class="grid-item large"
+            data-banner="./img/RBBannerLogoSmallPopup.png"
+                data-title="Project: Rigidbirdy" 
+                data-description="Rigidbody was my first major project during my first year of game development. It was part of a special program at SiNTLUCAS, where I had the chance to develop projects of my choice to demonstrate my passion and ability to continue in Game Development. For this project, I chose to create a spin-off of <i>Flappy</i> Bird with different modes. Initially, I followed a tutorial video, but I later designed various levels, including co-op mode, increased gravity, and obstacles like flying knives. You can view the final result in detail on my <a href='https://www.behance.net/gallery/180998275/Project-Rigidbirdy' target='_blank'>Behance post</a>." 
+                data-images="./img/FlappyBirdMenu1.png, ./img/FlappyBirdMenu2.png, ./img/FlappyBirdMenu3.png, ./img/FlappyBirdMenu4.png">
+                <img src="./img/RBLogoBig.png" alt="Project Rigidbirdy">
+                <div class="title">Project: Rigidbirdy</div>
+            </div>
+
+            <div class="grid-item medium"
+            data-banner="./img/VoidEdge.webp"
+                data-title="Project Codename: Space" 
+                data-description="<b>Codename: Space</b> was the first project I worked on with two classmates, where we collaborated to develop a game. We called ourselves <b>2DudesStudio</b>, driven by the dream of creating an indie studio with promising projects and games. During this time, we created a rough draft and an alpha tech demo titled <b>Codename Space</b> for the <i>Shine!</i> event, showcasing it to parents, teachers, and fellow students.
+                <br><br>
+                Although Space had a lot of potential, the project only reached the alpha tech demo stage, and the ideas remained in draft form. Unfortunately, 2DudesStudio disbanded shortly after due to creative differences and delays in character design. Despite the dissolution, I gained valuable lessons that shaped my journey in game development.
+                <br><br>
+                If you'd like to learn more about the project, check out <a href='https://www.behance.net/gallery/165662703/Project-Space' target='_blank'>my post on BeHance</a>. (Dutch only)
+                <br><br>
+                Also check out the <a href='https://github.com/driedAgedBanana/codeNameSpace' target='_blank'>GitHub page</a>." 
+                data-images="">
+                <img src="./img/LogoSPACEmall.png" alt="Project Space">
+                <div class="title">Project Codename: Space</div>
+            </div>
+
+            <div class="grid-item large"
+            data-banner="./img/Project_17_PNG_FINALE_COVER.jpg"
+                data-title="Cartographer: Project Seventeen" 
+                data-description="<b>Cartographer: Project Seventeen</b> was my first project outside of game development. I studied photography for three months as my elective course, simply because photography has always been a passion of mine. At one point, I had debated between pursuing game development or photography in my studies; in the end, I chose game development, but the allure of photography continued to draw me in, and I wanted to experience the world through the lens at least once.
+                <br><br>
+                During my three-month photography course, I received an assignment that remains a personal favorite: to create a photo series about seventeen-year-olds, capturing their style, lifestyle, and unique stories in a printed album. This project is particularly meaningful to me, as it gave me a fresh perspective and creative freedom beyond what I experienced in game development. I didn't worry about finding models since I knew several classmates from my first year who were open to participating. All I needed was to borrow a camera and start shooting." 
+                data-images="./img/Carto_1.JPG, ./img/Carto_2.JPG, ./img/Carto_3.JPG, ./img/Carto_4.JPG, ./img/Carto_cover_beta.png"
+                data-videos="./img/FINAL_teaser.mp4"
+                data-additional-text="After selecting my best shots, I began designing the album, which turned out to be my busiest and most challenging period. The project required me to use <i>Adobe InDesign</i>, a program I had never worked with before. With guidance from my teachers, I gradually developed a unique style for my book. The story I wanted to tell focused on the thoughts, emotions, love, and growth of young people at seventeen (interestingly, none of the people featured were exactly seventeen; they were either older or younger).
+                <br><br>
+                As the project progressed, I decided to challenge myself further by creating and editing a teaser video. Video editing had been something I enjoyed, especially after using Premiere Pro in a first-year project, and I wanted to dive back into it. Eventually, after much effort, <i>Cartographer</i> was completed.
+                <br><br>
+                To view the full album, check out my <a href='https://www.behance.net/gallery/194941511/Cartographer-Project-Seventeen' target='_blank'>my post on BeHance</a>. A big thank you to all the models who made this project possible!">
+                <img src="./img/LogCartoBig.png" alt="Cartographer: Project Seventeen">
+                <div class="title">Cartographer: Project Seventeen</div>
+            </div>
+
+            <div class="grid-item small"
+            data-banner="./img/Sketch_3.png"
+                data-title="Breaking the Silence" 
+                data-description="<b>Breaking the Silence</b> is a reflective project that marks the conclusion of my three-month photography course, showcasing my skills and creativity within the medium. The project encompasses various themes, including promotional photography for products such as fashion items and the creation of posters addressing societal issues.
+                <br><br>
+                For this project, I focused on the theme of loneliness, inspired by the Dutch campaign <b>Een tegen Eenzaamheid</b> aimed at combating loneliness, particularly among the elderly. My research revealed that while this campaign primarily targets older adults, younger individuals experiencing loneliness often remain overlooked. This insight motivated my choice of topic, highlighting a less-discussed aspect of this social issue.
+                <br><br>
+                The assignment required me to take four photographs: two outdoors and two in a studio setting. After shooting and selecting the images I felt were the most fitting, I explained my choices to my teacher. Here are the results:" 
+                data-images="./img/ETE_1.png, ./img/ETE_2.png, ./img/ETE_3.png, ./img/ETE_4.png"
+                data-additional-text="Once again, a big thank you towards all the models during the making of the project. Without your help I will never be able to create this!">
+                <img src="./img/ChairMan.jpg" alt="Breaking the Silence">
+                <div class="title">Breaking the Silence</div>
+            </div>
+
+            <!-- Repeat for other projects -->
         </div>
     </div>
+</section>
 
+
+<!-- Modal Structure -->
+<div id="projectModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-banner">
+            <img src="" alt="Project Banner" class="banner-img">
+            <h1 id="modalTitle">Project Title</h1>
+        </div>
+        <div class="text-box">
+            <h2 class="text-box-title" id="textBoxTitle">Project Information</h2> <!-- Headline for the first text box -->
+            <p id="modalText">More information about the project goes here.</p>
+        </div>
+        <div class="image-grid" id="modalImages">
+            <!-- Dynamic images/videos will be injected here -->
+        </div>
+        <!-- Optional second text box -->
+        <div class="text-box">
+            <h2 class="text-box-title" id="additionalBoxTitle">Additional Information</h2> <!-- Headline for the optional text box -->
+            <p id="additionalModalText">Optional additional information can go here.</p>
+        </div>
+        <!-- Optional footer -->
+        <footer class="modal-footer">
+            <p>Designed by Bon Cao</p>
+        </footer>
+        <span class="close">&times;</span>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-top">
+        <p>Anything that you would like to ask? Or are you curious about something?</p>
+        <p>Be The One and send me an email!</p>
+        <button class="contact-button-footer"><a href="mailto:cao.bon2805@gmail.com">Contact me!</a></button>
+    </div>
+
+    <!-- Grouped section with light grey background -->
+    <div class="footer-bottom-group">
+        <div class="footer-bottom">
+            <div class="footer-section">
+                <a href="#intro" class="footer-button" id="backToTopButton">Back to Top</a>
+            </div>
+            <div class="footer-section">
+                <a href="#aboutMyself" class="footer-button">Back to About Me</a>
+            </div>
+            <div class="footer-section">
+                <a href="#projectSection" class="footer-button">Back to Projects</a>
+            </div>
+            <div class="footer-section">
+                <a href="../Website_In_Concept/BonCVRenewWText.pdf" class="footer-button" target="_blank">My Resume</a>
+            </div>
+        </div>
+
+        <div class="footer-images">
+            <img src="./img/HetVolksMok-removebg-preview.png" alt="Image 1" class="footer-extra-logo">
+            <img src="./img/codenameHyphen (2).png" alt="Image 2" class="footer-extra-logo">
+            <img src="./img/Cartographerlogo-removebg-preview.png" alt="Image 3" class="footer-extra-logo">
+            <img src="./img/ProjectPorto1Logo-removebg-preview.png" alt="Image 4" class="footer-extra-logo">
+            <img src="./img/ProjectRBLogo-removebg-preview.png" alt="Image 5" class="footer-extra-logo">
+        </div>
+
+        <div class="footer-copyright">
+            <p>Wyzard'sArk 2019 - 2024</p>
+        </div>
+    </div>
 </footer>
 
+<script src="./JavaScript/script.js"></script>
 </body>
-<script src="./JS/script.js"></script>
 </html>
