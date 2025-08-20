@@ -648,15 +648,14 @@ span {
 
 .SURF-wallpaper {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
-    z-index: 0;
+    background-image: url(../Img/Porto_1.5.png);
+    min-width: 101%;
+    min-height: 101%;
     opacity: 0.5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
 }
 
 .mirage-text {
@@ -775,8 +774,8 @@ span {
 
 
 .social-media {
-    margin-left: 50%;
-    margin-top: -150px;
+    margin-left: 60%;
+    margin-top: -110px;
     letter-spacing: 0.1vw;
     text-transform: uppercase;
     font-size: 1vw;
@@ -808,6 +807,10 @@ span {
     margin-top: 15px;
 }
 
+.phone-footer-banner {
+    display: none;
+}
+
 .footer-banner {
     width: 1200px;
     display: block;
@@ -816,9 +819,6 @@ span {
     height: auto;
 }
 
-.phone-footer-banner {
-    display: none;
-}
 
 .footer-cap-content span {
     color: #4169e1;
@@ -997,7 +997,7 @@ span {
     }
 
     .mirage {
-        background-image: url("../Img/ConnorDarkPhoneSide.png");
+        background-image: url("../Img/Porto_Banner_Minecraft.png");
     }
 
     .highlight-content {
@@ -1020,6 +1020,18 @@ span {
     .highlight-content .btn {
         margin-top: 20px; /* Add some space between text and button */
     }
+
+    .SURF-wallpaper {
+    position: absolute;
+    background-image: url(../Img/Porto_1.5_phone.jpg);
+    min-width: 101%;
+    min-height: 101%;
+    opacity: 0.4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
 
     .footer {
         background-color: black;
@@ -1067,6 +1079,8 @@ span {
 
     .social-media {
         color: black;
+        margin-left: 60%;
+        margin-top: -100px;
     }
 
     .question-button {
@@ -1101,6 +1115,3 @@ span {
         margin-top: 100px; /* Adjust the padding as needed */
     }
 }
-
-
-
