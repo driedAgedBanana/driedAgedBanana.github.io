@@ -652,15 +652,13 @@ span {
 
 .SURF-wallpaper {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
-    z-index: 0;
-    opacity: 0.5;
+    background-image: url(../../Img/darkVoidEdge.png);
+    min-width: 101%;
+    min-height: 101%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
 }
 
 .mirage-text {
@@ -755,7 +753,7 @@ span {
     line-height: 1.4vw;
     margin-left: 35%;
     padding-bottom: 1px;
-    margin-top: -170px;
+    margin-top: -200px;
 }
 
 .question-button {
@@ -779,7 +777,7 @@ span {
 
 
 .social-media {
-    margin-left: 70%;
+    margin-left: 60%;
     margin-top: -100px;
     letter-spacing: 0.1vw;
     text-transform: uppercase;
@@ -908,6 +906,7 @@ span {
         font-size: 28px;
         font-weight: 200;
         height: 150px;
+        padding: 0 40px;
     }
 
     .aboutMe {
@@ -1002,6 +1001,18 @@ span {
         filter: none;
     }
 
+    .SURF-wallpaper {
+    position: absolute;
+    background-image: url(../../Img/Porto_1.5_NLD.png);
+    min-width: 101%;
+    min-height: 101%;
+    opacity: 0.4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    }
+
     .highlight-content {
         padding: 50px 20px; /* Adjust padding for mobile */
         text-align: center;
@@ -1069,6 +1080,7 @@ span {
     }
 
     .social-media {
+        margin-left: 45%;
         color: black;
     }
 
@@ -1105,6 +1117,3 @@ span {
         margin-top: 100px; /* Adjust the padding as needed */
     }
 }
-
-
-

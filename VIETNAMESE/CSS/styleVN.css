@@ -625,7 +625,7 @@ span {
     margin-top: 10px;
     padding: 10px 20px;
     font-size: 1em;
-    color: white;
+    color: black;
     background-color: #ffd700;
     text-decoration: none;
     border: none;
@@ -638,15 +638,14 @@ span {
 
 .SURF-wallpaper {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
-    z-index: 0;
-    opacity: 0.5;
+    background-image: url(../../Img/Porto_1.5_VIE.png);
+    min-width: 101%;
+    min-height: 101%;
+    opacity: 0.4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
 }
 
 .mirage-text {
@@ -662,7 +661,7 @@ span {
 .mirage {
     width: 100%;
     height: 20vh;
-    background-image: url('../../Img/RK200Dark.png');
+    background-image: url('../../Img/DarkHenshin.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed; /* This enables the parallax effect */
@@ -765,7 +764,7 @@ span {
 
 
 .social-media {
-    margin-left: 70%;
+    margin-left: 60%;
     margin-top: -100px;
     letter-spacing: 0.1vw;
     text-transform: uppercase;
@@ -891,9 +890,10 @@ span {
     .hero-section .sub-heading {
         text-align: center;
         text-transform: capitalize;
-        font-size: 28px;
+        font-size: 30px;
         font-weight: 200;
         height: 150px;
+        padding: 0 40px;
     }
 
     .aboutMe {
@@ -1005,6 +1005,18 @@ span {
         margin-top: 20px; /* Add some space between text and button */
     }
 
+    .SURF-wallpaper {
+    position: absolute;
+    background-image: url(../../Img/Porto_1.5_Phone_VIE.png);
+    min-width: 101%;
+    min-height: 101%;
+    opacity: 0.4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    }
+
     .footer {
         background-color: black;
         color: white;
@@ -1091,6 +1103,5 @@ span {
         margin-top: 100px; /* Adjust the padding as needed */
     }
 }
-
 
 

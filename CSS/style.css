@@ -903,6 +903,7 @@ span {
         font-size: 28px;
         font-weight: 200;
         height: 150px;
+        padding: 0 40px;
     }
 
     .aboutMe {
@@ -1023,10 +1024,10 @@ span {
 
     .SURF-wallpaper {
     position: absolute;
-    background-image: url(../Img/Porto_1.5_phone.jpg);
+    background-image: url(../Img/Porto_1.5_ENG_Phone.png);
     min-width: 101%;
     min-height: 101%;
-    opacity: 0.4;
+    opacity: 0.7;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
